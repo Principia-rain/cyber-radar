@@ -1,0 +1,169 @@
+{
+ "generatedAt": "2026-10-27T05:25:15Z",
+ "date": "2026-10-27",
+ "ok_sources": 3,
+ "sources": {
+  "infocon": {
+   "label": "SANS ISC 威胁等级",
+   "status": "ok",
+   "data": {
+    "level": "unknown"
+   }
+  },
+  "scan_pressure": {
+   "label": "全球端口扫描压力",
+   "status": "ok",
+   "data": {
+    "source": "SANS ISC",
+    "top": [
+     {
+      "rank": 1,
+      "port": "22",
+      "records": 12832,
+      "targets": 193,
+      "sources": 905
+     },
+     {
+      "rank": 2,
+      "port": "2222",
+      "records": 7924,
+      "targets": 157,
+      "sources": 459
+     },
+     {
+      "rank": 3,
+      "port": "23",
+      "records": 7900,
+      "targets": 191,
+      "sources": 891
+     },
+     {
+      "rank": 4,
+      "port": "60808",
+      "records": 3524,
+      "targets": 2,
+      "sources": 223
+     },
+     {
+      "rank": 5,
+      "port": "16767",
+      "records": 3206,
+      "targets": 6,
+      "sources": 638
+     },
+     {
+      "rank": 6,
+      "port": "443",
+      "records": 3185,
+      "targets": 141,
+      "sources": 631
+     },
+     {
+      "rank": 7,
+      "port": "80",
+      "records": 2859,
+      "targets": 163,
+      "sources": 618
+     },
+     {
+      "rank": 8,
+      "port": "51413",
+      "records": 2022,
+      "targets": 2,
+      "sources": 315
+     },
+     {
+      "rank": 9,
+      "port": "8080",
+      "records": 1653,
+      "targets": 140,
+      "sources": 303
+     },
+     {
+      "rank": 10,
+      "port": "123",
+      "records": 1613,
+      "targets": 36,
+      "sources": 253
+     }
+    ]
+   }
+  },
+  "kev": {
+   "label": "CISA KEV 在野利用漏洞",
+   "status": "error",
+   "error": "URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+  },
+  "feodo": {
+   "label": "Feodo Tracker C2",
+   "status": "error",
+   "error": "URLError: <urlopen error timed out>"
+  },
+  "urlhaus": {
+   "label": "URLhaus 恶意URL",
+   "status": "error",
+   "error": "URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+  },
+  "nvd": {
+   "label": "NVD 新披露 CVE",
+   "status": "ok",
+   "data": {
+    "published_7d": 4407,
+    "critical_7d": 155,
+    "high_7d": 826,
+    "critical_list": [
+     {
+      "cve": "CVE-2026-101809",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-81212",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-87337",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-91216",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-91221",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-91231",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-91299",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-105312",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-113672",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-113708",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     }
+    ]
+   }
+  }
+ }
+}
