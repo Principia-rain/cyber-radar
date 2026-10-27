@@ -5,9 +5,9 @@
   "kev_total": 1758,
   "kev_new_7d": 4,
   "c2_ips": 5,
-  "urlhaus_recent": 0,
+  "phish_recent": 300,
   "published_7d": 4407,
   "critical_7d": 155,
-  "ok_sources": 5
+  "ok_sources": 6
  }
 ]

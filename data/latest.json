@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-27T05:33:48Z",
+ "generatedAt": "2026-10-27T05:44:14Z",
  "date": "2026-10-27",
- "ok_sources": 5,
+ "ok_sources": 6,
  "sources": {
   "infocon": {
    "label": "SANS ISC 威胁等级",
@@ -150,10 +150,46 @@
     ]
    }
   },
-  "urlhaus": {
-   "label": "URLhaus 恶意URL",
-   "status": "error",
-   "error": "HTTPError: HTTP Error 410: Gone"
+  "openphish": {
+   "label": "OpenPhish 钓鱼URL",
+   "status": "ok",
+   "data": {
+    "recent": 300,
+    "top_domains": [
+     {
+      "domain": "135461223.site",
+      "count": 18
+     },
+     {
+      "domain": "idporten-norge.vercel.app",
+      "count": 6
+     },
+     {
+      "domain": "chatgpt0005.eu.org",
+      "count": 5
+     },
+     {
+      "domain": "1url.at",
+      "count": 3
+     },
+     {
+      "domain": "guide-desktop.grigora.app",
+      "count": 2
+     },
+     {
+      "domain": "lixvorta-ken472618395.vercel.app",
+      "count": 2
+     },
+     {
+      "domain": "login-orange.vftr.fr",
+      "count": 2
+     },
+     {
+      "domain": "qbxj54bdrun-ywsd7pli-3n6l1g-qbx22c.pages.dev",
+      "count": 2
+     }
+    ]
+   }
   },
   "nvd": {
    "label": "NVD 新披露 CVE",
