@@ -61,7 +61,7 @@
 
   <div class="two">
     <section><h2>僵尸网络 C2 家族（Feodo）</h2><div id="feodo">—</div></section>
-    <section><h2>恶意 URL 高频标签（URLhaus）</h2><div id="urlhaus">—</div></section>
+    <section><h2>高频钓鱼域名（OpenPhish）</h2><div id="openphish">—</div></section>
   </div>
 
   <section>
@@ -83,7 +83,7 @@
     数据源：<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV</a> ·
     <a href="https://nvd.nist.gov/">NVD</a> ·
     <a href="https://feodotracker.abuse.ch/">Feodo Tracker</a> ·
-    <a href="https://urlhaus.abuse.ch/">URLhaus</a> ·
+    <a href="https://openphish.com/">OpenPhish</a> ·
     <a href="https://isc.sans.edu/">SANS ISC</a>
     <br>每日中文日报见仓库 <a href="https://github.com/Principia-rain/cyber-radar/tree/main/reports">reports/ 目录</a>。
     <br>本项目仅聚合公开威胁情报，不向任何第三方发起探测；数据仅供学习研究。
@@ -113,7 +113,7 @@ function render(snap){
     card("KEV 在野利用漏洞总量", d("kev").total ?? "—", "CISA 目录累计"),
     card("KEV 最近 7 天新增", d("kev").new_7d ?? "—", "新增被在野利用"),
     card("活跃 C2 IP（Feodo）", d("feodo").c2_ips ?? "—", "银行木马命令与控制"),
-    card("恶意 URL 本批收录", d("urlhaus").recent ?? "—", "URLhaus 最近批次"),
+    card("钓鱼 URL 当前活跃", d("openphish").recent ?? "—", "OpenPhish 社区源"),
     card("7 天新披露 CVE", d("nvd").published_7d ?? "—", "NVD 全球新增"),
     card("其中严重 CVE（≥9.0）", d("nvd").critical_7d ?? "—", "CVSS 严重级"),
   ].join("");
@@ -125,8 +125,8 @@ function render(snap){
   const fams = d("feodo").families || [];
   document.getElementById("feodo").innerHTML = fams.length ? fams.map(f=>`<span class="chip">${esc(f.family)} · ${f.count}</span>`).join("") : "暂无数据";
 
-  const tags = d("urlhaus").top_tags || [];
-  document.getElementById("urlhaus").innerHTML = tags.length ? tags.map(t=>`<span class="chip">${esc(t.tag)} · ${t.count}</span>`).join("") : "暂无数据";
+  const doms = d("openphish").top_domains || [];
+  document.getElementById("openphish").innerHTML = doms.length ? doms.map(t=>`<span class="chip">${esc(t.domain)} · ${t.count}</span>`).join("") : "暂无数据";
 
   const scan = d("scan_pressure"); const ports = scan.top || [];
   document.getElementById("ports").innerHTML = ports.length ? `<table><tr><th>端口</th><th>记录数</th><th>目标数</th><th>来源IP数</th></tr>` +

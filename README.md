@@ -20,7 +20,11 @@
 | [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | 已被在野利用的漏洞目录 | 攻击者真的在打哪些洞 |
 | [NVD](https://nvd.nist.gov/) | 最近 7 天新披露 CVE | 新增攻击面有多少 |
 | [Feodo Tracker](https://feodotracker.abuse.ch/) | 当前活跃银行木马 C2 | 僵尸网络规模与家族 |
-| [URLhaus](https://urlhaus.abuse.ch/) | 恶意软件分发 URL | 投毒与分发活动 |
+| [OpenPhish](https://openphish.com/) | 当前活跃钓鱼 URL（免费社区源） | 钓鱼与投毒活动 |
+
+> 注：原计划用的 abuse.ch URLhaus 公开下载端点已下线（HTTP 410，2025 年起 abuse.ch
+> 强制 API 鉴权），故换用 OpenPhish。若未来想接 abuse.ch 其他源，去官网免费申请 key
+> 后在 `SOURCES` 里加一个带鉴权头的函数即可。
 | [SANS ISC](https://isc.sans.edu/) infocon | 全球威胁等级（绿~红） | 总体态势 |
 | [SANS ISC](https://isc.sans.edu/) / DShield | 被攻击最多的端口 | 全球扫描压力 |
 

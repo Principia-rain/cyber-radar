@@ -24,6 +24,7 @@ import sys
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -149,16 +150,24 @@ def src_feodo():
     }
 
 
-def src_urlhaus():
-    """URLhaus：恶意软件分发 URL（最近收录批次）。"""
-    d = fetch_json("https://urlhaus.abuse.ch/downloads/json_recent/", timeout=30)
-    items = (d.get("URLs") or []) if isinstance(d, dict) else []
-    tags = {}
-    for it in items:
-        for t in it.get("tags") or []:
-            tags[t] = tags.get(t, 0) + 1
-    top = sorted(tags.items(), key=lambda kv: (-kv[1], kv[0]))[:8]
-    return {"recent": len(items), "top_tags": [{"tag": k, "count": v} for k, v in top]}
+def src_openphish():
+    """OpenPhish 社区源：当前活跃钓鱼 URL 列表（纯文本，每行一条）。
+    注：原 URLhaus 公开下载端点已下线（HTTP 410，abuse.ch 2025 年起强制 API 鉴权），
+    故改用 OpenPhish 免费社区源。"""
+    req = urllib.request.Request("https://openphish.com/feed.txt", headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=30, context=CTX) as resp:
+        text = resp.read().decode("utf-8", "replace")
+    urls = [ln.strip() for ln in text.splitlines() if ln.strip()]
+    doms = {}
+    for u in urls:
+        try:
+            h = urlparse(u).netloc.lower()
+        except Exception:
+            continue
+        if h:
+            doms[h] = doms.get(h, 0) + 1
+    top = sorted(doms.items(), key=lambda kv: (-kv[1], kv[0]))[:8]
+    return {"recent": len(urls), "top_domains": [{"domain": k, "count": v} for k, v in top]}
 
 
 def src_nvd():
@@ -212,7 +221,7 @@ SOURCES = {
     "scan_pressure": ("全球端口扫描压力", src_scan_pressure),
     "kev": ("CISA KEV 在野利用漏洞", src_kev),
     "feodo": ("Feodo Tracker C2", src_feodo),
-    "urlhaus": ("URLhaus 恶意URL", src_urlhaus),
+    "openphish": ("OpenPhish 钓鱼URL", src_openphish),
     "nvd": ("NVD 新披露 CVE", src_nvd),
 }
 
@@ -252,7 +261,7 @@ def history_point(snap):
         "kev_total": num("kev", "total"),
         "kev_new_7d": num("kev", "new_7d"),
         "c2_ips": num("feodo", "c2_ips"),
-        "urlhaus_recent": num("urlhaus", "recent"),
+        "phish_recent": num("openphish", "recent"),
         "published_7d": num("nvd", "published_7d"),
         "critical_7d": num("nvd", "critical_7d"),
         "ok_sources": snap["ok_sources"],
@@ -316,12 +325,12 @@ def write_report(snap, point):
             lines += [f"| {f['family']} | {f['count']} |" for f in fams]
             lines.append("")
 
-    urlh = (s.get("urlhaus") or {}).get("data") or {}
-    if urlh:
-        tags = urlh.get("top_tags") or []
-        tag_str = "、".join(f"{t['tag']}({t['count']})" for t in tags) or "无"
-        lines += ["## 恶意 URL（URLhaus 最近收录）", "",
-                  f"- 本批收录：{urlh.get('recent')} 条；高频标签：{tag_str}", ""]
+    phish = (s.get("openphish") or {}).get("data") or {}
+    if phish:
+        doms = phish.get("top_domains") or []
+        dom_str = "、".join(f"{t['domain']}({t['count']})" for t in doms) or "无"
+        lines += ["## 钓鱼 URL（OpenPhish 当前活跃）", "",
+                  f"- 活跃钓鱼 URL：**{phish.get('recent')}** 条；高频域名：{dom_str}", ""]
 
     nvd = (s.get("nvd") or {}).get("data") or {}
     if nvd:
