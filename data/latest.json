@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-27T05:44:14Z",
- "date": "2026-10-27",
+ "generatedAt": "2026-10-28T08:46:00Z",
+ "date": "2026-10-28",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -19,72 +19,72 @@
      {
       "rank": 1,
       "port": "22",
-      "records": 138660,
-      "targets": 249,
-      "sources": 4669
+      "records": 228087,
+      "targets": 268,
+      "sources": 6165
      },
      {
       "rank": 2,
       "port": "23",
-      "records": 111907,
-      "targets": 250,
-      "sources": 6038
+      "records": 172606,
+      "targets": 261,
+      "sources": 7286
      },
      {
       "rank": 3,
       "port": "2222",
-      "records": 84840,
-      "targets": 224,
-      "sources": 3188
+      "records": 93020,
+      "targets": 259,
+      "sources": 4871
      },
      {
       "rank": 4,
-      "port": "80",
-      "records": 31709,
-      "targets": 218,
-      "sources": 3402
+      "port": "443",
+      "records": 91289,
+      "targets": 226,
+      "sources": 4302
      },
      {
       "rank": 5,
-      "port": "8080",
-      "records": 27233,
-      "targets": 225,
-      "sources": 1994
+      "port": "80",
+      "records": 61175,
+      "targets": 230,
+      "sources": 5050
      },
      {
       "rank": 6,
-      "port": "443",
-      "records": 25687,
-      "targets": 212,
-      "sources": 2981
+      "port": "8080",
+      "records": 29577,
+      "targets": 244,
+      "sources": 3017
      },
      {
       "rank": 7,
-      "port": "51413",
-      "records": 20699,
-      "targets": 35,
-      "sources": 1271
+      "port": "16767",
+      "records": 28322,
+      "targets": 33,
+      "sources": 2178
      },
      {
       "rank": 8,
-      "port": "8000",
-      "records": 19468,
-      "targets": 221,
-      "sources": 1845
+      "port": "7680",
+      "records": 24243,
+      "targets": 25,
+      "sources": 1598
      },
      {
       "rank": 9,
-      "port": "16767",
-      "records": 16632,
-      "targets": 26,
-      "sources": 1521
+      "port": "137",
+      "records": 24049,
+      "targets": 164,
+      "sources": 521
      },
      {
       "rank": 10,
-      "port": "137",
-      "records": 16233,
-      "targets": 109,
-      "sources": 462
+      "port": "8000",
+      "records": 23174,
+      "targets": 247,
+      "sources": 2915
      }
     ]
    }
@@ -93,10 +93,26 @@
    "label": "CISA KEV 在野利用漏洞",
    "status": "ok",
    "data": {
-    "total": 1758,
-    "new_7d": 4,
-    "released": "2026-10-26T22:24:24.6101Z",
+    "total": 1760,
+    "new_7d": 6,
+    "released": "2026-10-27T19:00:02.2307Z",
     "recent": [
+     {
+      "cve": "CVE-2026-48356",
+      "vendor": "Adobe",
+      "product": "Commerce and Magento",
+      "added": "2026-10-27",
+      "ransomware": false,
+      "desc": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability "
+     },
+     {
+      "cve": "CVE-2026-111497",
+      "vendor": "Google",
+      "product": "Brotli",
+      "added": "2026-10-27",
+      "ransomware": false,
+      "desc": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated "
+     },
      {
       "cve": "CVE-2026-109618",
       "vendor": "PHP Group",
@@ -157,36 +173,36 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "135461223.site",
-      "count": 18
+      "domain": "external-stop-send-vatican.trycloudflare.com",
+      "count": 2
      },
      {
-      "domain": "idporten-norge.vercel.app",
-      "count": 6
+      "domain": "lezgercomstrt.gitbook.io",
+      "count": 2
      },
      {
-      "domain": "chatgpt0005.eu.org",
-      "count": 5
+      "domain": "photograph-natural-consequences-marks.trycloudflare.com",
+      "count": 2
+     },
+     {
+      "domain": "spotifymode.org",
+      "count": 2
+     },
+     {
+      "domain": "uspss.pages.dev",
+      "count": 2
+     },
+     {
+      "domain": "vortex-auth-proxy.pages.dev",
+      "count": 2
+     },
+     {
+      "domain": "www.roblox.ly",
+      "count": 2
      },
      {
       "domain": "1url.at",
-      "count": 3
-     },
-     {
-      "domain": "guide-desktop.grigora.app",
-      "count": 2
-     },
-     {
-      "domain": "lixvorta-ken472618395.vercel.app",
-      "count": 2
-     },
-     {
-      "domain": "login-orange.vftr.fr",
-      "count": 2
-     },
-     {
-      "domain": "qbxj54bdrun-ywsd7pli-3n6l1g-qbx22c.pages.dev",
-      "count": 2
+      "count": 1
      }
     ]
    }
@@ -195,58 +211,58 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 4407,
-    "critical_7d": 155,
-    "high_7d": 826,
+    "published_7d": 3137,
+    "critical_7d": 171,
+    "high_7d": 587,
     "critical_list": [
      {
-      "cve": "CVE-2026-101809",
+      "cve": "CVE-2026-111832",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-81212",
+      "cve": "CVE-2026-105944",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-87337",
+      "cve": "CVE-2026-111813",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-91216",
+      "cve": "CVE-2026-110264",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-91221",
+      "cve": "CVE-2026-102785",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-91231",
+      "cve": "CVE-2026-79844",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-91299",
+      "cve": "CVE-2026-79846",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-105312",
-      "score": 9.9,
+      "cve": "CVE-2026-79847",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-113672",
-      "score": 9.9,
+      "cve": "CVE-2026-79848",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-113708",
-      "score": 9.9,
+      "cve": "CVE-2026-79849",
+      "score": 10.0,
       "severity": "CRITICAL"
      }
     ]
