@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-28T08:46:00Z",
- "date": "2026-10-28",
+ "generatedAt": "2026-10-29T08:42:15Z",
+ "date": "2026-10-29",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -19,72 +19,72 @@
      {
       "rank": 1,
       "port": "22",
-      "records": 228087,
-      "targets": 268,
-      "sources": 6165
+      "records": 190632,
+      "targets": 267,
+      "sources": 5727
      },
      {
       "rank": 2,
       "port": "23",
-      "records": 172606,
-      "targets": 261,
-      "sources": 7286
+      "records": 126109,
+      "targets": 260,
+      "sources": 5815
      },
      {
       "rank": 3,
-      "port": "2222",
-      "records": 93020,
-      "targets": 259,
-      "sources": 4871
+      "port": "80",
+      "records": 108847,
+      "targets": 250,
+      "sources": 4421
      },
      {
       "rank": 4,
       "port": "443",
-      "records": 91289,
-      "targets": 226,
-      "sources": 4302
+      "records": 105255,
+      "targets": 223,
+      "sources": 4901
      },
      {
       "rank": 5,
-      "port": "80",
-      "records": 61175,
-      "targets": 230,
-      "sources": 5050
+      "port": "2222",
+      "records": 71901,
+      "targets": 242,
+      "sources": 4052
      },
      {
       "rank": 6,
-      "port": "8080",
-      "records": 29577,
-      "targets": 244,
-      "sources": 3017
+      "port": "137",
+      "records": 62195,
+      "targets": 163,
+      "sources": 479
      },
      {
       "rank": 7,
-      "port": "16767",
-      "records": 28322,
-      "targets": 33,
-      "sources": 2178
+      "port": "8080",
+      "records": 26966,
+      "targets": 255,
+      "sources": 3388
      },
      {
       "rank": 8,
-      "port": "7680",
-      "records": 24243,
-      "targets": 25,
-      "sources": 1598
+      "port": "16767",
+      "records": 23719,
+      "targets": 12,
+      "sources": 1919
      },
      {
       "rank": 9,
-      "port": "137",
-      "records": 24049,
-      "targets": 164,
-      "sources": 521
+      "port": "8000",
+      "records": 20449,
+      "targets": 250,
+      "sources": 2923
      },
      {
       "rank": 10,
-      "port": "8000",
-      "records": 23174,
-      "targets": 247,
-      "sources": 2915
+      "port": "8443",
+      "records": 17835,
+      "targets": 244,
+      "sources": 2048
      }
     ]
    }
@@ -93,10 +93,26 @@
    "label": "CISA KEV 在野利用漏洞",
    "status": "ok",
    "data": {
-    "total": 1760,
-    "new_7d": 6,
-    "released": "2026-10-27T19:00:02.2307Z",
+    "total": 1762,
+    "new_7d": 8,
+    "released": "2026-10-28T19:00:04.8077Z",
     "recent": [
+     {
+      "cve": "CVE-2026-41709",
+      "vendor": "Broadcom",
+      "product": "VMware ESX",
+      "added": "2026-10-28",
+      "ransomware": false,
+      "desc": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious acto"
+     },
+     {
+      "cve": "CVE-2026-46300",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "added": "2026-10-28",
+      "ransomware": false,
+      "desc": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unin"
+     },
      {
       "cve": "CVE-2026-48356",
       "vendor": "Adobe",
@@ -173,36 +189,36 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "external-stop-send-vatican.trycloudflare.com",
-      "count": 2
-     },
-     {
-      "domain": "lezgercomstrt.gitbook.io",
-      "count": 2
-     },
-     {
-      "domain": "photograph-natural-consequences-marks.trycloudflare.com",
-      "count": 2
-     },
-     {
-      "domain": "spotifymode.org",
-      "count": 2
-     },
-     {
-      "domain": "uspss.pages.dev",
-      "count": 2
-     },
-     {
-      "domain": "vortex-auth-proxy.pages.dev",
-      "count": 2
+      "domain": "www.roblox.rw",
+      "count": 6
      },
      {
       "domain": "www.roblox.ly",
-      "count": 2
+      "count": 4
      },
      {
-      "domain": "1url.at",
-      "count": 1
+      "domain": "decisions-indianapolis-brighton-angela.trycloudflare.com",
+      "count": 3
+     },
+     {
+      "domain": "g5.lu",
+      "count": 3
+     },
+     {
+      "domain": "robiox.com.py",
+      "count": 3
+     },
+     {
+      "domain": "vortex-auth-proxy.pages.dev",
+      "count": 3
+     },
+     {
+      "domain": "www.roblox.com.et",
+      "count": 3
+     },
+     {
+      "domain": "www.roblox.com.ss",
+      "count": 3
      }
     ]
    }
@@ -211,30 +227,10 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 3137,
-    "critical_7d": 171,
-    "high_7d": 587,
+    "published_7d": 3316,
+    "critical_7d": 161,
+    "high_7d": 539,
     "critical_list": [
-     {
-      "cve": "CVE-2026-111832",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-105944",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-111813",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-110264",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
      {
       "cve": "CVE-2026-102785",
       "score": 10.0,
@@ -262,6 +258,26 @@
      },
      {
       "cve": "CVE-2026-79849",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-79850",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-79851",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-110063",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-83938",
       "score": 10.0,
       "severity": "CRITICAL"
      }
