@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-31T08:36:10Z",
- "date": "2026-10-31",
+ "generatedAt": "2026-11-01T09:27:00Z",
+ "date": "2026-11-01",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -19,72 +19,72 @@
      {
       "rank": 1,
       "port": "22",
-      "records": 169219,
-      "targets": 234,
-      "sources": 4167
+      "records": 217784,
+      "targets": 261,
+      "sources": 5580
      },
      {
       "rank": 2,
-      "port": "23",
-      "records": 79232,
-      "targets": 234,
-      "sources": 4204
+      "port": "443",
+      "records": 106841,
+      "targets": 231,
+      "sources": 4976
      },
      {
       "rank": 3,
-      "port": "80",
-      "records": 67897,
-      "targets": 218,
-      "sources": 2835
+      "port": "23",
+      "records": 97615,
+      "targets": 260,
+      "sources": 5719
      },
      {
       "rank": 4,
       "port": "2222",
-      "records": 52401,
-      "targets": 220,
-      "sources": 2611
+      "records": 84360,
+      "targets": 233,
+      "sources": 3430
      },
      {
       "rank": 5,
-      "port": "443",
-      "records": 28226,
-      "targets": 210,
-      "sources": 3345
+      "port": "8080",
+      "records": 57971,
+      "targets": 249,
+      "sources": 3302
      },
      {
       "rank": 6,
-      "port": "8080",
-      "records": 25102,
-      "targets": 222,
-      "sources": 1941
+      "port": "80",
+      "records": 39041,
+      "targets": 244,
+      "sources": 4507
      },
      {
       "rank": 7,
-      "port": "51413",
-      "records": 20414,
-      "targets": 22,
-      "sources": 689
+      "port": "55563",
+      "records": 30568,
+      "targets": 4,
+      "sources": 7367
      },
      {
       "rank": 8,
       "port": "8000",
-      "records": 17831,
-      "targets": 221,
-      "sources": 1632
+      "records": 25339,
+      "targets": 231,
+      "sources": 2298
      },
      {
       "rank": 9,
-      "port": "137",
-      "records": 15720,
-      "targets": 155,
-      "sources": 466
+      "port": "16767",
+      "records": 22142,
+      "targets": 119,
+      "sources": 1893
      },
      {
       "rank": 10,
-      "port": "16767",
-      "records": 15476,
-      "targets": 10,
-      "sources": 1476
+      "port": "51413",
+      "records": 21562,
+      "targets": 85,
+      "sources": 809
      }
     ]
    }
@@ -205,36 +205,36 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "s.team-zm.com",
-      "count": 4
+      "domain": "uv-bitli-compo.pages.dev",
+      "count": 24
+     },
+     {
+      "domain": "roblox.et",
+      "count": 9
      },
      {
       "domain": "www.roblox.com.ss",
+      "count": 6
+     },
+     {
+      "domain": "r.oblox.com.et",
+      "count": 5
+     },
+     {
+      "domain": "notifyhubss.net",
       "count": 4
      },
      {
-      "domain": "135461223.site",
+      "domain": "crackaf-bubbles-frontend.vercel.app",
       "count": 3
      },
      {
-      "domain": "2026102104591913017857.onamaeweb.jp",
-      "count": 2
+      "domain": "www.roblox.com.et",
+      "count": 3
      },
      {
-      "domain": "acessapp.vercel.app",
-      "count": 2
-     },
-     {
-      "domain": "bio.site",
-      "count": 2
-     },
-     {
-      "domain": "consultazionedigitale1pec.tempurl.host",
-      "count": 2
-     },
-     {
-      "domain": "fb-free.shop",
-      "count": 2
+      "domain": "www.roblox.ly",
+      "count": 3
      }
     ]
    }
@@ -243,9 +243,9 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 3670,
-    "critical_7d": 114,
-    "high_7d": 409,
+    "published_7d": 3676,
+    "critical_7d": 109,
+    "high_7d": 428,
     "critical_list": [
      {
       "cve": "CVE-2026-115905",
@@ -260,11 +260,6 @@
      {
       "cve": "CVE-2026-105781",
       "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-115933",
-      "score": 9.9,
       "severity": "CRITICAL"
      },
      {
@@ -294,6 +289,11 @@
      },
      {
       "cve": "CVE-2026-105489",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-105780",
       "score": 9.9,
       "severity": "CRITICAL"
      }
