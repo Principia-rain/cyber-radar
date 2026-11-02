@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-01T09:27:00Z",
- "date": "2026-11-01",
+ "generatedAt": "2026-11-02T09:42:38Z",
+ "date": "2026-11-02",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -19,72 +19,72 @@
      {
       "rank": 1,
       "port": "22",
-      "records": 217784,
-      "targets": 261,
-      "sources": 5580
+      "records": 221819,
+      "targets": 273,
+      "sources": 5564
      },
      {
       "rank": 2,
-      "port": "443",
-      "records": 106841,
-      "targets": 231,
-      "sources": 4976
+      "port": "23",
+      "records": 163609,
+      "targets": 266,
+      "sources": 6948
      },
      {
       "rank": 3,
-      "port": "23",
-      "records": 97615,
-      "targets": 260,
-      "sources": 5719
+      "port": "2222",
+      "records": 67646,
+      "targets": 234,
+      "sources": 3324
      },
      {
       "rank": 4,
-      "port": "2222",
-      "records": 84360,
-      "targets": 233,
-      "sources": 3430
+      "port": "443",
+      "records": 40382,
+      "targets": 234,
+      "sources": 4650
      },
      {
       "rank": 5,
-      "port": "8080",
-      "records": 57971,
-      "targets": 249,
-      "sources": 3302
+      "port": "80",
+      "records": 35555,
+      "targets": 228,
+      "sources": 3218
      },
      {
       "rank": 6,
-      "port": "80",
-      "records": 39041,
-      "targets": 244,
-      "sources": 4507
+      "port": "7680",
+      "records": 32291,
+      "targets": 30,
+      "sources": 1981
      },
      {
       "rank": 7,
-      "port": "55563",
-      "records": 30568,
-      "targets": 4,
-      "sources": 7367
+      "port": "8080",
+      "records": 29736,
+      "targets": 248,
+      "sources": 2239
      },
      {
       "rank": 8,
-      "port": "8000",
-      "records": 25339,
-      "targets": 231,
-      "sources": 2298
+      "port": "60437",
+      "records": 28657,
+      "targets": 5,
+      "sources": 694
      },
      {
       "rank": 9,
-      "port": "16767",
-      "records": 22142,
-      "targets": 119,
-      "sources": 1893
+      "port": "8000",
+      "records": 24865,
+      "targets": 249,
+      "sources": 2019
      },
      {
       "rank": 10,
-      "port": "51413",
-      "records": 21562,
-      "targets": 85,
-      "sources": 809
+      "port": "137",
+      "records": 22753,
+      "targets": 170,
+      "sources": 501
      }
     ]
    }
@@ -94,7 +94,7 @@
    "status": "ok",
    "data": {
     "total": 1766,
-    "new_7d": 10,
+    "new_7d": 8,
     "released": "2026-10-30T17:02:45.3665Z",
     "recent": [
      {
@@ -160,22 +160,6 @@
       "added": "2026-10-27",
       "ransomware": false,
       "desc": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated "
-     },
-     {
-      "cve": "CVE-2026-109618",
-      "vendor": "PHP Group",
-      "product": "PHP",
-      "added": "2026-10-26",
-      "ransomware": false,
-      "desc": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code e"
-     },
-     {
-      "cve": "CVE-2026-109619",
-      "vendor": "PHP Group",
-      "product": "PHP",
-      "added": "2026-10-26",
-      "ransomware": false,
-      "desc": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote cod"
      }
     ]
    }
@@ -206,34 +190,34 @@
     "top_domains": [
      {
       "domain": "uv-bitli-compo.pages.dev",
-      "count": 24
+      "count": 38
      },
      {
-      "domain": "roblox.et",
+      "domain": "afc-benton-fert253498.pages.dev",
+      "count": 20
+     },
+     {
+      "domain": "didianeensing-fft-oshehun.pages.dev",
       "count": 9
      },
      {
-      "domain": "www.roblox.com.ss",
+      "domain": "s4w.in",
       "count": 6
      },
      {
-      "domain": "r.oblox.com.et",
+      "domain": "customer-sp-logandaviau1.pages.dev",
       "count": 5
      },
      {
-      "domain": "notifyhubss.net",
+      "domain": "www.roblox.rw",
+      "count": 5
+     },
+     {
+      "domain": "g5.lu",
       "count": 4
      },
      {
-      "domain": "crackaf-bubbles-frontend.vercel.app",
-      "count": 3
-     },
-     {
       "domain": "www.roblox.com.et",
-      "count": 3
-     },
-     {
-      "domain": "www.roblox.ly",
       "count": 3
      }
     ]
@@ -243,9 +227,9 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 3676,
-    "critical_7d": 109,
-    "high_7d": 428,
+    "published_7d": 3687,
+    "critical_7d": 117,
+    "high_7d": 450,
     "critical_list": [
      {
       "cve": "CVE-2026-115905",
