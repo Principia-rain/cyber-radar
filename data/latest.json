@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-02T09:42:38Z",
- "date": "2026-11-02",
+ "generatedAt": "2026-11-03T09:46:50Z",
+ "date": "2026-11-03",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -19,72 +19,72 @@
      {
       "rank": 1,
       "port": "22",
-      "records": 221819,
-      "targets": 273,
-      "sources": 5564
+      "records": 123155,
+      "targets": 245,
+      "sources": 3573
      },
      {
       "rank": 2,
       "port": "23",
-      "records": 163609,
-      "targets": 266,
-      "sources": 6948
+      "records": 91290,
+      "targets": 245,
+      "sources": 3957
      },
      {
       "rank": 3,
-      "port": "2222",
-      "records": 67646,
-      "targets": 234,
-      "sources": 3324
+      "port": "443",
+      "records": 55570,
+      "targets": 220,
+      "sources": 4672
      },
      {
       "rank": 4,
-      "port": "443",
-      "records": 40382,
-      "targets": 234,
-      "sources": 4650
+      "port": "3389",
+      "records": 48614,
+      "targets": 222,
+      "sources": 459
      },
      {
       "rank": 5,
-      "port": "80",
-      "records": 35555,
-      "targets": 228,
-      "sources": 3218
+      "port": "2222",
+      "records": 32611,
+      "targets": 230,
+      "sources": 2568
      },
      {
       "rank": 6,
-      "port": "7680",
-      "records": 32291,
-      "targets": 30,
-      "sources": 1981
+      "port": "5900",
+      "records": 27552,
+      "targets": 202,
+      "sources": 232
      },
      {
       "rank": 7,
       "port": "8080",
-      "records": 29736,
-      "targets": 248,
-      "sources": 2239
+      "records": 25584,
+      "targets": 230,
+      "sources": 2485
      },
      {
       "rank": 8,
-      "port": "60437",
-      "records": 28657,
-      "targets": 5,
-      "sources": 694
+      "port": "80",
+      "records": 23070,
+      "targets": 223,
+      "sources": 2688
      },
      {
       "rank": 9,
       "port": "8000",
-      "records": 24865,
-      "targets": 249,
-      "sources": 2019
+      "records": 20404,
+      "targets": 226,
+      "sources": 2036
      },
      {
       "rank": 10,
-      "port": "137",
-      "records": 22753,
-      "targets": 170,
-      "sources": 501
+      "port": "51413",
+      "records": 16625,
+      "targets": 17,
+      "sources": 1453
      }
     ]
    }
@@ -94,7 +94,7 @@
    "status": "ok",
    "data": {
     "total": 1766,
-    "new_7d": 8,
+    "new_7d": 6,
     "released": "2026-10-30T17:02:45.3665Z",
     "recent": [
      {
@@ -144,22 +144,6 @@
       "added": "2026-10-28",
       "ransomware": false,
       "desc": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unin"
-     },
-     {
-      "cve": "CVE-2026-48356",
-      "vendor": "Adobe",
-      "product": "Commerce and Magento",
-      "added": "2026-10-27",
-      "ransomware": false,
-      "desc": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability "
-     },
-     {
-      "cve": "CVE-2026-111497",
-      "vendor": "Google",
-      "product": "Brotli",
-      "added": "2026-10-27",
-      "ransomware": false,
-      "desc": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated "
      }
     ]
    }
@@ -189,35 +173,35 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "uv-bitli-compo.pages.dev",
-      "count": 38
+      "domain": "wquie-eiiow201113.pages.dev",
+      "count": 27
      },
      {
-      "domain": "afc-benton-fert253498.pages.dev",
-      "count": 20
+      "domain": "jeffbrillzo-3255654-938kamesky.pages.dev",
+      "count": 25
      },
      {
-      "domain": "didianeensing-fft-oshehun.pages.dev",
+      "domain": "customer-sp-logandaviau1.pages.dev",
       "count": 9
+     },
+     {
+      "domain": "www.roblox.com.et",
+      "count": 8
      },
      {
       "domain": "s4w.in",
       "count": 6
      },
      {
-      "domain": "customer-sp-logandaviau1.pages.dev",
-      "count": 5
-     },
-     {
-      "domain": "www.roblox.rw",
-      "count": 5
-     },
-     {
-      "domain": "g5.lu",
+      "domain": "datle2024-fthcapital-bo.pages.dev",
       "count": 4
      },
      {
-      "domain": "www.roblox.com.et",
+      "domain": "afc-benton-fert253498.pages.dev",
+      "count": 3
+     },
+     {
+      "domain": "swispostch.com",
       "count": 3
      }
     ]
@@ -227,15 +211,10 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 3687,
-    "critical_7d": 117,
-    "high_7d": 450,
+    "published_7d": 3344,
+    "critical_7d": 177,
+    "high_7d": 594,
     "critical_list": [
-     {
-      "cve": "CVE-2026-115905",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
      {
       "cve": "CVE-2026-65145",
       "score": 10.0,
@@ -247,18 +226,23 @@
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-115188",
-      "score": 9.9,
+      "cve": "CVE-2026-61564",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-102649",
-      "score": 9.9,
+      "cve": "CVE-2026-61567",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-110720",
-      "score": 9.9,
+      "cve": "CVE-2026-61991",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-84295",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
