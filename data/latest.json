@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-03T09:46:50Z",
- "date": "2026-11-03",
+ "generatedAt": "2026-11-04T09:33:04Z",
+ "date": "2026-11-04",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -19,72 +19,72 @@
      {
       "rank": 1,
       "port": "22",
-      "records": 123155,
-      "targets": 245,
-      "sources": 3573
+      "records": 185233,
+      "targets": 285,
+      "sources": 5866
      },
      {
       "rank": 2,
       "port": "23",
-      "records": 91290,
-      "targets": 245,
-      "sources": 3957
+      "records": 98315,
+      "targets": 284,
+      "sources": 6100
      },
      {
       "rank": 3,
-      "port": "443",
-      "records": 55570,
-      "targets": 220,
-      "sources": 4672
+      "port": "161",
+      "records": 73759,
+      "targets": 222,
+      "sources": 466
      },
      {
       "rank": 4,
-      "port": "3389",
-      "records": 48614,
-      "targets": 222,
-      "sources": 459
+      "port": "443",
+      "records": 68250,
+      "targets": 243,
+      "sources": 5528
      },
      {
       "rank": 5,
       "port": "2222",
-      "records": 32611,
-      "targets": 230,
-      "sources": 2568
+      "records": 66106,
+      "targets": 267,
+      "sources": 3328
      },
      {
       "rank": 6,
-      "port": "5900",
-      "records": 27552,
-      "targets": 202,
-      "sources": 232
+      "port": "3389",
+      "records": 64572,
+      "targets": 245,
+      "sources": 670
      },
      {
       "rank": 7,
-      "port": "8080",
-      "records": 25584,
-      "targets": 230,
-      "sources": 2485
+      "port": "80",
+      "records": 51405,
+      "targets": 241,
+      "sources": 4965
      },
      {
       "rank": 8,
-      "port": "80",
-      "records": 23070,
-      "targets": 223,
-      "sources": 2688
+      "port": "8080",
+      "records": 37712,
+      "targets": 262,
+      "sources": 3471
      },
      {
       "rank": 9,
       "port": "8000",
-      "records": 20404,
-      "targets": 226,
-      "sources": 2036
+      "records": 34358,
+      "targets": 251,
+      "sources": 2805
      },
      {
       "rank": 10,
-      "port": "51413",
-      "records": 16625,
-      "targets": 17,
-      "sources": 1453
+      "port": "9000",
+      "records": 22376,
+      "targets": 248,
+      "sources": 2341
      }
     ]
    }
@@ -93,10 +93,18 @@
    "label": "CISA KEV 在野利用漏洞",
    "status": "ok",
    "data": {
-    "total": 1766,
-    "new_7d": 6,
-    "released": "2026-10-30T17:02:45.3665Z",
+    "total": 1767,
+    "new_7d": 5,
+    "released": "2026-11-03T20:00:24.8741Z",
     "recent": [
+     {
+      "cve": "CVE-2026-119977",
+      "vendor": "WordPress",
+      "product": "WordPress Core",
+      "added": "2026-11-03",
+      "ransomware": false,
+      "desc": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability "
+     },
      {
       "cve": "CVE-2026-118527",
       "vendor": "Ivanti",
@@ -128,22 +136,6 @@
       "added": "2026-10-29",
       "ransomware": false,
       "desc": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value "
-     },
-     {
-      "cve": "CVE-2026-41709",
-      "vendor": "Broadcom",
-      "product": "VMware ESX",
-      "added": "2026-10-28",
-      "ransomware": false,
-      "desc": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious acto"
-     },
-     {
-      "cve": "CVE-2026-46300",
-      "vendor": "Linux",
-      "product": "Kernel",
-      "added": "2026-10-28",
-      "ransomware": false,
-      "desc": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unin"
      }
     ]
    }
@@ -173,36 +165,36 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "wquie-eiiow201113.pages.dev",
-      "count": 27
-     },
-     {
-      "domain": "jeffbrillzo-3255654-938kamesky.pages.dev",
-      "count": 25
-     },
-     {
       "domain": "customer-sp-logandaviau1.pages.dev",
-      "count": 9
+      "count": 12
      },
      {
-      "domain": "www.roblox.com.et",
-      "count": 8
-     },
-     {
-      "domain": "s4w.in",
-      "count": 6
-     },
-     {
-      "domain": "datle2024-fthcapital-bo.pages.dev",
+      "domain": "www.rafnl.buzz",
       "count": 4
      },
      {
-      "domain": "afc-benton-fert253498.pages.dev",
+      "domain": "s4w.in",
       "count": 3
      },
      {
-      "domain": "swispostch.com",
+      "domain": "www.lgnig.buzz",
       "count": 3
+     },
+     {
+      "domain": "www.lxeqy.buzz",
+      "count": 3
+     },
+     {
+      "domain": "www.uswwo.buzz",
+      "count": 3
+     },
+     {
+      "domain": "www.xeksw.xyz",
+      "count": 3
+     },
+     {
+      "domain": "f005.backblazeb2.com",
+      "count": 2
      }
     ]
    }
@@ -211,20 +203,10 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 3344,
-    "critical_7d": 177,
-    "high_7d": 594,
+    "published_7d": 3431,
+    "critical_7d": 167,
+    "high_7d": 654,
     "critical_list": [
-     {
-      "cve": "CVE-2026-65145",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-105781",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
      {
       "cve": "CVE-2026-61564",
       "score": 10.0,
@@ -246,22 +228,32 @@
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-104351",
+      "cve": "CVE-2026-61738",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-112816",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-61826",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-44179",
       "score": 9.9,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-104353",
+      "cve": "CVE-2026-113617",
       "score": 9.9,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-105489",
-      "score": 9.9,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-105780",
+      "cve": "CVE-2026-107327",
       "score": 9.9,
       "severity": "CRITICAL"
      }
