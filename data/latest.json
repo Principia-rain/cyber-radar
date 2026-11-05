@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-04T09:33:04Z",
- "date": "2026-11-04",
+ "generatedAt": "2026-11-05T09:40:27Z",
+ "date": "2026-11-05",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -19,72 +19,72 @@
      {
       "rank": 1,
       "port": "22",
-      "records": 185233,
-      "targets": 285,
-      "sources": 5866
+      "records": 212298,
+      "targets": 275,
+      "sources": 6419
      },
      {
       "rank": 2,
-      "port": "23",
-      "records": 98315,
-      "targets": 284,
-      "sources": 6100
+      "port": "161",
+      "records": 132388,
+      "targets": 220,
+      "sources": 402
      },
      {
       "rank": 3,
-      "port": "161",
-      "records": 73759,
-      "targets": 222,
-      "sources": 466
+      "port": "23",
+      "records": 128846,
+      "targets": 274,
+      "sources": 4943
      },
      {
       "rank": 4,
       "port": "443",
-      "records": 68250,
-      "targets": 243,
-      "sources": 5528
+      "records": 69558,
+      "targets": 257,
+      "sources": 5927
      },
      {
       "rank": 5,
-      "port": "2222",
-      "records": 66106,
-      "targets": 267,
-      "sources": 3328
+      "port": "3389",
+      "records": 61152,
+      "targets": 260,
+      "sources": 863
      },
      {
       "rank": 6,
-      "port": "3389",
-      "records": 64572,
-      "targets": 245,
-      "sources": 670
+      "port": "8080",
+      "records": 58205,
+      "targets": 268,
+      "sources": 5384
      },
      {
       "rank": 7,
       "port": "80",
-      "records": 51405,
-      "targets": 241,
-      "sources": 4965
+      "records": 49300,
+      "targets": 240,
+      "sources": 6386
      },
      {
       "rank": 8,
-      "port": "8080",
-      "records": 37712,
-      "targets": 262,
-      "sources": 3471
+      "port": "8000",
+      "records": 44656,
+      "targets": 264,
+      "sources": 5147
      },
      {
       "rank": 9,
-      "port": "8000",
-      "records": 34358,
-      "targets": 251,
-      "sources": 2805
+      "port": "2222",
+      "records": 35067,
+      "targets": 267,
+      "sources": 2893
      },
      {
       "rank": 10,
-      "port": "9000",
-      "records": 22376,
-      "targets": 248,
-      "sources": 2341
+      "port": "51413",
+      "records": 20865,
+      "targets": 28,
+      "sources": 923
      }
     ]
    }
@@ -93,10 +93,18 @@
    "label": "CISA KEV 在野利用漏洞",
    "status": "ok",
    "data": {
-    "total": 1767,
-    "new_7d": 5,
-    "released": "2026-11-03T20:00:24.8741Z",
+    "total": 1768,
+    "new_7d": 4,
+    "released": "2026-11-04T20:00:05.774Z",
     "recent": [
+     {
+      "cve": "CVE-2024-27834",
+      "vendor": "Apple",
+      "product": "Multiple Products",
+      "added": "2026-11-04",
+      "ransomware": false,
+      "desc": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerabi"
+     },
      {
       "cve": "CVE-2026-119977",
       "vendor": "WordPress",
@@ -120,22 +128,6 @@
       "added": "2026-10-30",
       "ransomware": false,
       "desc": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that cou"
-     },
-     {
-      "cve": "CVE-2026-97229",
-      "vendor": "GitLab",
-      "product": "Community Edition and Enterprise Edition",
-      "added": "2026-10-29",
-      "ransomware": false,
-      "desc": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerabili"
-     },
-     {
-      "cve": "CVE-2026-76418",
-      "vendor": "Cisco",
-      "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
-      "added": "2026-10-29",
-      "ransomware": false,
-      "desc": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value "
      }
     ]
    }
@@ -165,35 +157,35 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "customer-sp-logandaviau1.pages.dev",
-      "count": 12
-     },
-     {
-      "domain": "www.rafnl.buzz",
-      "count": 4
+      "domain": "poncinema-hub-ai-cvideo.pages.dev",
+      "count": 26
      },
      {
       "domain": "s4w.in",
+      "count": 6
+     },
+     {
+      "domain": "www.roblox.com.et",
+      "count": 4
+     },
+     {
+      "domain": "www.roblox.com.ss",
+      "count": 4
+     },
+     {
+      "domain": "68-210-36-191.cprapid.com",
       "count": 3
      },
      {
-      "domain": "www.lgnig.buzz",
+      "domain": "customer-sp-logandaviau1.pages.dev",
       "count": 3
      },
      {
-      "domain": "www.lxeqy.buzz",
+      "domain": "www.roblox.ly",
       "count": 3
      },
      {
-      "domain": "www.uswwo.buzz",
-      "count": 3
-     },
-     {
-      "domain": "www.xeksw.xyz",
-      "count": 3
-     },
-     {
-      "domain": "f005.backblazeb2.com",
+      "domain": "center-supp0012935324.pages.dev",
       "count": 2
      }
     ]
@@ -203,20 +195,10 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 3431,
-    "critical_7d": 167,
-    "high_7d": 654,
+    "published_7d": 3121,
+    "critical_7d": 175,
+    "high_7d": 709,
     "critical_list": [
-     {
-      "cve": "CVE-2026-61564",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-61567",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
      {
       "cve": "CVE-2026-61991",
       "score": 10.0,
@@ -243,17 +225,27 @@
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-44179",
-      "score": 9.9,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-113617",
-      "score": 9.9,
+      "cve": "CVE-2026-120338",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
       "cve": "CVE-2026-107327",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-107328",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-107329",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-90868",
       "score": 9.9,
       "severity": "CRITICAL"
      }
