@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-06T09:35:00Z",
- "date": "2026-11-06",
+ "generatedAt": "2026-11-07T08:58:56Z",
+ "date": "2026-11-07",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -18,73 +18,73 @@
     "top": [
      {
       "rank": 1,
-      "port": "161",
-      "records": 332942,
-      "targets": 254,
-      "sources": 842
+      "port": "22",
+      "records": 136895,
+      "targets": 262,
+      "sources": 3609
      },
      {
       "rank": 2,
-      "port": "22",
-      "records": 242925,
-      "targets": 288,
-      "sources": 7729
+      "port": "161",
+      "records": 107362,
+      "targets": 236,
+      "sources": 510
      },
      {
       "rank": 3,
       "port": "443",
-      "records": 215303,
-      "targets": 261,
-      "sources": 8641
+      "records": 54215,
+      "targets": 223,
+      "sources": 10457
      },
      {
       "rank": 4,
-      "port": "8080",
-      "records": 192745,
-      "targets": 288,
-      "sources": 4991
+      "port": "23",
+      "records": 48762,
+      "targets": 262,
+      "sources": 4088
      },
      {
       "rank": 5,
-      "port": "23",
-      "records": 160759,
-      "targets": 286,
-      "sources": 7716
+      "port": "3389",
+      "records": 47830,
+      "targets": 244,
+      "sources": 439
      },
      {
       "rank": 6,
-      "port": "80",
-      "records": 155468,
-      "targets": 255,
-      "sources": 5789
+      "port": "2222",
+      "records": 46801,
+      "targets": 253,
+      "sources": 2159
      },
      {
       "rank": 7,
-      "port": "8000",
-      "records": 155440,
-      "targets": 290,
-      "sources": 4165
+      "port": "80",
+      "records": 46169,
+      "targets": 233,
+      "sources": 10633
      },
      {
       "rank": 8,
-      "port": "3389",
-      "records": 112009,
-      "targets": 272,
-      "sources": 1391
+      "port": "8080",
+      "records": 28208,
+      "targets": 249,
+      "sources": 2107
      },
      {
       "rank": 9,
-      "port": "2222",
-      "records": 76645,
-      "targets": 291,
-      "sources": 5259
+      "port": "8000",
+      "records": 20849,
+      "targets": 242,
+      "sources": 1708
      },
      {
       "rank": 10,
       "port": "7680",
-      "records": 45801,
-      "targets": 30,
-      "sources": 2171
+      "records": 18849,
+      "targets": 16,
+      "sources": 1665
      }
     ]
    }
@@ -93,10 +93,18 @@
    "label": "CISA KEV 在野利用漏洞",
    "status": "ok",
    "data": {
-    "total": 1768,
-    "new_7d": 2,
-    "released": "2026-11-04T20:00:05.774Z",
+    "total": 1769,
+    "new_7d": 3,
+    "released": "2026-11-06T19:44:45.1797Z",
     "recent": [
+     {
+      "cve": "CVE-2026-19868",
+      "vendor": "SonicWall",
+      "product": "SonicOS SSLVPN",
+      "added": "2026-11-06",
+      "ransomware": false,
+      "desc": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow"
+     },
      {
       "cve": "CVE-2024-27834",
       "vendor": "Apple",
@@ -141,35 +149,35 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "pmh-ledger.pages.dev",
+      "domain": "roblox.com.pt",
       "count": 6
      },
      {
-      "domain": "www.roblox.ly",
-      "count": 5
+      "domain": "vaibhavinayak10.github.io",
+      "count": 4
      },
      {
-      "domain": "zarnel-privex-biz-holvik-santor-fdp1912.pages.dev",
-      "count": 5
-     },
-     {
-      "domain": "lpr47-145bf-mvk62-145sk-4b1c8d-lpr47-145c.pages.dev",
-      "count": 3
+      "domain": "www.roblox.com.ml",
+      "count": 4
      },
      {
       "domain": "www.roblox.com.ss",
       "count": 3
      },
      {
-      "domain": "auth-crypto-doc-cdn.gitbook.io",
+      "domain": "www.roblox.ly",
+      "count": 3
+     },
+     {
+      "domain": "www.roblox.rw",
+      "count": 3
+     },
+     {
+      "domain": "22881565.com",
       "count": 2
      },
      {
-      "domain": "b6a2f96c.hyt65chn.pages.dev",
-      "count": 2
-     },
-     {
-      "domain": "delinea.ar",
+      "domain": "33771565.com",
       "count": 2
      }
     ]
@@ -179,57 +187,57 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 3103,
-    "critical_7d": 159,
-    "high_7d": 740,
+    "published_7d": 3217,
+    "critical_7d": 179,
+    "high_7d": 736,
     "critical_list": [
-     {
-      "cve": "CVE-2026-61738",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-112816",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-61826",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
      {
       "cve": "CVE-2026-120338",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-61728",
-      "score": 9.9,
+      "cve": "CVE-2026-121489",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-115829",
-      "score": 9.9,
+      "cve": "CVE-2026-73098",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-62853",
-      "score": 9.9,
+      "cve": "CVE-2026-73099",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-73100",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-73101",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-73116",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-73117",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-96677",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
       "cve": "CVE-2026-120306",
-      "score": 9.9,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-120307",
-      "score": 9.9,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-120308",
       "score": 9.9,
       "severity": "CRITICAL"
      }
