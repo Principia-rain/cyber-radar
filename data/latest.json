@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-09T09:58:35Z",
- "date": "2026-11-09",
+ "generatedAt": "2026-11-10T10:08:23Z",
+ "date": "2026-11-10",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -18,73 +18,73 @@
     "top": [
      {
       "rank": 1,
-      "port": "23",
-      "records": 615146,
-      "targets": 281,
-      "sources": 8961
+      "port": "22",
+      "records": 334395,
+      "targets": 291,
+      "sources": 6922
      },
      {
       "rank": 2,
-      "port": "22",
-      "records": 284239,
-      "targets": 285,
-      "sources": 7579
+      "port": "443",
+      "records": 240546,
+      "targets": 264,
+      "sources": 8822
      },
      {
       "rank": 3,
-      "port": "161",
-      "records": 171999,
-      "targets": 245,
-      "sources": 717
+      "port": "23",
+      "records": 142953,
+      "targets": 285,
+      "sources": 7125
      },
      {
       "rank": 4,
-      "port": "443",
-      "records": 147153,
-      "targets": 247,
-      "sources": 6551
+      "port": "80",
+      "records": 128683,
+      "targets": 252,
+      "sources": 4856
      },
      {
       "rank": 5,
       "port": "3389",
-      "records": 128662,
-      "targets": 265,
-      "sources": 1175
+      "records": 120374,
+      "targets": 270,
+      "sources": 1167
      },
      {
       "rank": 6,
-      "port": "80",
-      "records": 113894,
-      "targets": 266,
-      "sources": 7075
+      "port": "2222",
+      "records": 85985,
+      "targets": 286,
+      "sources": 3618
      },
      {
       "rank": 7,
-      "port": "8080",
-      "records": 99397,
-      "targets": 281,
-      "sources": 4501
+      "port": "51413",
+      "records": 85869,
+      "targets": 77,
+      "sources": 2759
      },
      {
       "rank": 8,
-      "port": "8000",
-      "records": 88155,
-      "targets": 279,
-      "sources": 3411
+      "port": "16767",
+      "records": 50897,
+      "targets": 13,
+      "sources": 2630
      },
      {
       "rank": 9,
-      "port": "2222",
-      "records": 86863,
-      "targets": 281,
-      "sources": 4919
+      "port": "8080",
+      "records": 47990,
+      "targets": 278,
+      "sources": 3672
      },
      {
       "rank": 10,
-      "port": "51413",
-      "records": 83709,
-      "targets": 166,
-      "sources": 2213
+      "port": "7680",
+      "records": 44660,
+      "targets": 31,
+      "sources": 2079
      }
     ]
    }
@@ -93,10 +93,42 @@
    "label": "CISA KEV 在野利用漏洞",
    "status": "ok",
    "data": {
-    "total": 1769,
-    "new_7d": 3,
-    "released": "2026-11-06T19:44:45.1797Z",
+    "total": 1773,
+    "new_7d": 6,
+    "released": "2026-11-09T19:54:37.4945Z",
     "recent": [
+     {
+      "cve": "CVE-2026-102895",
+      "vendor": "GPUStack",
+      "product": "GPUStack",
+      "added": "2026-11-09",
+      "ransomware": false,
+      "desc": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated adminis"
+     },
+     {
+      "cve": "CVE-2026-123158",
+      "vendor": "OpenBSD",
+      "product": "OpenSSH",
+      "added": "2026-11-09",
+      "ransomware": false,
+      "desc": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could"
+     },
+     {
+      "cve": "CVE-2026-116779",
+      "vendor": "SignalWire",
+      "product": "FreeSwitch",
+      "added": "2026-11-09",
+      "ransomware": false,
+      "desc": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credent"
+     },
+     {
+      "cve": "CVE-2026-123218",
+      "vendor": "IBM",
+      "product": "Aspera Faspex",
+      "added": "2026-11-09",
+      "ransomware": false,
+      "desc": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticate"
+     },
      {
       "cve": "CVE-2026-19868",
       "vendor": "SonicWall",
@@ -112,14 +144,6 @@
       "added": "2026-11-04",
       "ransomware": false,
       "desc": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerabi"
-     },
-     {
-      "cve": "CVE-2026-119977",
-      "vendor": "WordPress",
-      "product": "WordPress Core",
-      "added": "2026-11-03",
-      "ransomware": false,
-      "desc": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability "
      }
     ]
    }
@@ -149,36 +173,36 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "hkdiscord.antsoon.com",
-      "count": 15
-     },
-     {
-      "domain": "sup-robertgaulin359.pages.dev",
-      "count": 12
-     },
-     {
-      "domain": "metamask-docs-75mpj2s96-consensys-ddffed67.vercel.app",
-      "count": 8
-     },
-     {
-      "domain": "www.roblox.com.ml",
-      "count": 7
-     },
-     {
-      "domain": "c07m.top",
-      "count": 6
+      "domain": "metamask-docs-ctqr7yuof-consensys-ddffed67.vercel.app",
+      "count": 10
      },
      {
       "domain": "customer-sp-hernandespule.pages.dev",
-      "count": 6
+      "count": 7
      },
      {
-      "domain": "kv-cont-blared.pages.dev",
+      "domain": "sup-robertgaulin359.pages.dev",
+      "count": 7
+     },
+     {
+      "domain": "135461223.site",
+      "count": 5
+     },
+     {
+      "domain": "s4w.in",
+      "count": 5
+     },
+     {
+      "domain": "www.roblox.com.ml",
+      "count": 5
+     },
+     {
+      "domain": "simoenape-mioma6.pages.dev",
       "count": 4
      },
      {
-      "domain": "www.roblox.com.et",
-      "count": 4
+      "domain": "https--www--roblox.com",
+      "count": 3
      }
     ]
    }
@@ -187,9 +211,9 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 3532,
-    "critical_7d": 152,
-    "high_7d": 693,
+    "published_7d": 3692,
+    "critical_7d": 156,
+    "high_7d": 679,
     "critical_list": [
      {
       "cve": "CVE-2026-121489",
@@ -232,12 +256,12 @@
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-28336",
-      "score": 9.9,
+      "cve": "CVE-2026-118423",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-97693",
+      "cve": "CVE-2026-28336",
       "score": 9.9,
       "severity": "CRITICAL"
      }
