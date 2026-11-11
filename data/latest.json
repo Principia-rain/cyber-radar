@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-10T10:08:23Z",
- "date": "2026-11-10",
+ "generatedAt": "2026-11-11T09:39:46Z",
+ "date": "2026-11-11",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -19,72 +19,72 @@
      {
       "rank": 1,
       "port": "22",
-      "records": 334395,
-      "targets": 291,
-      "sources": 6922
+      "records": 343102,
+      "targets": 298,
+      "sources": 8330
      },
      {
       "rank": 2,
-      "port": "443",
-      "records": 240546,
-      "targets": 264,
-      "sources": 8822
+      "port": "8080",
+      "records": 153222,
+      "targets": 285,
+      "sources": 5306
      },
      {
       "rank": 3,
       "port": "23",
-      "records": 142953,
-      "targets": 285,
-      "sources": 7125
+      "records": 153041,
+      "targets": 289,
+      "sources": 7507
      },
      {
       "rank": 4,
-      "port": "80",
-      "records": 128683,
-      "targets": 252,
-      "sources": 4856
+      "port": "443",
+      "records": 134249,
+      "targets": 255,
+      "sources": 8790
      },
      {
       "rank": 5,
       "port": "3389",
-      "records": 120374,
-      "targets": 270,
-      "sources": 1167
+      "records": 128092,
+      "targets": 268,
+      "sources": 1472
      },
      {
       "rank": 6,
-      "port": "2222",
-      "records": 85985,
-      "targets": 286,
-      "sources": 3618
+      "port": "8000",
+      "records": 125115,
+      "targets": 284,
+      "sources": 4664
      },
      {
       "rank": 7,
-      "port": "51413",
-      "records": 85869,
-      "targets": 77,
-      "sources": 2759
+      "port": "80",
+      "records": 105511,
+      "targets": 297,
+      "sources": 6935
      },
      {
       "rank": 8,
-      "port": "16767",
-      "records": 50897,
-      "targets": 13,
-      "sources": 2630
+      "port": "51413",
+      "records": 99928,
+      "targets": 166,
+      "sources": 4462
      },
      {
       "rank": 9,
-      "port": "8080",
-      "records": 47990,
-      "targets": 278,
-      "sources": 3672
+      "port": "2222",
+      "records": 73641,
+      "targets": 285,
+      "sources": 4282
      },
      {
       "rank": 10,
       "port": "7680",
-      "records": 44660,
-      "targets": 31,
-      "sources": 2079
+      "records": 69924,
+      "targets": 34,
+      "sources": 3172
      }
     ]
    }
@@ -93,10 +93,58 @@
    "label": "CISA KEV 在野利用漏洞",
    "status": "ok",
    "data": {
-    "total": 1773,
-    "new_7d": 6,
-    "released": "2026-11-09T19:54:37.4945Z",
+    "total": 1779,
+    "new_7d": 11,
+    "released": "2026-11-10T19:03:29.8375Z",
     "recent": [
+     {
+      "cve": "CVE-2026-124194",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "added": "2026-11-10",
+      "ransomware": false,
+      "desc": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerabi"
+     },
+     {
+      "cve": "CVE-2026-111793",
+      "vendor": "Openwave Messaging Limited",
+      "product": "Webtop Media Transcoder",
+      "added": "2026-11-10",
+      "ransomware": false,
+      "desc": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between s"
+     },
+     {
+      "cve": "CVE-2026-20320",
+      "vendor": "Cisco",
+      "product": "BroadWorks",
+      "added": "2026-11-10",
+      "ransomware": false,
+      "desc": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability tha"
+     },
+     {
+      "cve": "CVE-2026-111560",
+      "vendor": "Barracuda Networks",
+      "product": "Multiple Products",
+      "added": "2026-11-10",
+      "ransomware": false,
+      "desc": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC"
+     },
+     {
+      "cve": "CVE-2026-116606",
+      "vendor": "Barracuda Networks",
+      "product": "Barracuda Email Security Gateway (ESG)",
+      "added": "2026-11-10",
+      "ransomware": false,
+      "desc": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate"
+     },
+     {
+      "cve": "CVE-2026-125350",
+      "vendor": "Google",
+      "product": "Chromium",
+      "added": "2026-11-10",
+      "ransomware": false,
+      "desc": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remo"
+     },
      {
       "cve": "CVE-2026-102895",
       "vendor": "GPUStack",
@@ -128,22 +176,6 @@
       "added": "2026-11-09",
       "ransomware": false,
       "desc": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticate"
-     },
-     {
-      "cve": "CVE-2026-19868",
-      "vendor": "SonicWall",
-      "product": "SonicOS SSLVPN",
-      "added": "2026-11-06",
-      "ransomware": false,
-      "desc": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow"
-     },
-     {
-      "cve": "CVE-2024-27834",
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "added": "2026-11-04",
-      "ransomware": false,
-      "desc": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerabi"
      }
     ]
    }
@@ -173,36 +205,36 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "metamask-docs-ctqr7yuof-consensys-ddffed67.vercel.app",
+      "domain": "roblox.rw",
       "count": 10
      },
      {
-      "domain": "customer-sp-hernandespule.pages.dev",
-      "count": 7
-     },
-     {
-      "domain": "sup-robertgaulin359.pages.dev",
-      "count": 7
-     },
-     {
-      "domain": "135461223.site",
+      "domain": "www.roblox.com.ss",
       "count": 5
      },
      {
-      "domain": "s4w.in",
-      "count": 5
-     },
-     {
-      "domain": "www.roblox.com.ml",
-      "count": 5
-     },
-     {
-      "domain": "simoenape-mioma6.pages.dev",
+      "domain": "kundservicekunto1793872363719.1990065.misitiohostgator.com",
       "count": 4
      },
      {
-      "domain": "https--www--roblox.com",
+      "domain": "135461223.site",
       "count": 3
+     },
+     {
+      "domain": "roblox.com.pt",
+      "count": 3
+     },
+     {
+      "domain": "www.roblox.com.ml",
+      "count": 3
+     },
+     {
+      "domain": "cloud.iat.lat",
+      "count": 2
+     },
+     {
+      "domain": "coinbaseplogininin.gitbook.io",
+      "count": 2
      }
     ]
    }
@@ -211,9 +243,9 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 3692,
-    "critical_7d": 156,
-    "high_7d": 679,
+    "published_7d": 4969,
+    "critical_7d": 186,
+    "high_7d": 687,
     "critical_list": [
      {
       "cve": "CVE-2026-121489",
@@ -261,8 +293,8 @@
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-28336",
-      "score": 9.9,
+      "cve": "CVE-2026-71495",
+      "score": 10.0,
       "severity": "CRITICAL"
      }
     ]
