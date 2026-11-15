@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-14T09:10:05Z",
- "date": "2026-11-14",
- "ok_sources": 5,
+ "generatedAt": "2026-11-15T09:39:25Z",
+ "date": "2026-11-15",
+ "ok_sources": 6,
  "sources": {
   "infocon": {
    "label": "SANS ISC 威胁等级",
@@ -18,73 +18,73 @@
     "top": [
      {
       "rank": 1,
-      "port": "22",
-      "records": 195959,
-      "targets": 269,
-      "sources": 8017
+      "port": "23",
+      "records": 987532,
+      "targets": 282,
+      "sources": 7201
      },
      {
       "rank": 2,
-      "port": "8080",
-      "records": 172198,
-      "targets": 245,
-      "sources": 4484
+      "port": "22",
+      "records": 255693,
+      "targets": 280,
+      "sources": 7307
      },
      {
       "rank": 3,
-      "port": "8000",
-      "records": 138147,
-      "targets": 244,
-      "sources": 4133
+      "port": "443",
+      "records": 120092,
+      "targets": 255,
+      "sources": 7469
      },
      {
       "rank": 4,
-      "port": "443",
-      "records": 92025,
-      "targets": 233,
-      "sources": 7149
+      "port": "16767",
+      "records": 92507,
+      "targets": 20,
+      "sources": 3607
      },
      {
       "rank": 5,
-      "port": "23",
-      "records": 75801,
-      "targets": 265,
-      "sources": 4770
+      "port": "80",
+      "records": 88709,
+      "targets": 278,
+      "sources": 4442
      },
      {
       "rank": 6,
-      "port": "80",
-      "records": 65708,
-      "targets": 250,
-      "sources": 6217
+      "port": "51413",
+      "records": 74178,
+      "targets": 65,
+      "sources": 3401
      },
      {
       "rank": 7,
-      "port": "16767",
-      "records": 42411,
-      "targets": 9,
-      "sources": 2491
+      "port": "2222",
+      "records": 57471,
+      "targets": 266,
+      "sources": 4550
      },
      {
       "rank": 8,
-      "port": "51413",
-      "records": 34059,
-      "targets": 20,
-      "sources": 2752
+      "port": "123",
+      "records": 47811,
+      "targets": 262,
+      "sources": 2523
      },
      {
       "rank": 9,
-      "port": "2222",
-      "records": 30082,
-      "targets": 236,
-      "sources": 3249
+      "port": "8080",
+      "records": 46346,
+      "targets": 278,
+      "sources": 3112
      },
      {
       "rank": 10,
-      "port": "9000",
-      "records": 25637,
-      "targets": 220,
-      "sources": 945
+      "port": "137",
+      "records": 32144,
+      "targets": 204,
+      "sources": 399
      }
     ]
    }
@@ -205,35 +205,35 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "amazon-gb-01-iont.std.epremo-akam.com",
-      "count": 9
-     },
-     {
-      "domain": "binance-com-0i.bonu.workers.dev",
-      "count": 9
-     },
-     {
-      "domain": "robiox.com.py",
-      "count": 7
-     },
-     {
-      "domain": "www.roblox.rw",
-      "count": 7
-     },
-     {
-      "domain": "roblox.com.ml",
-      "count": 4
-     },
-     {
       "domain": "roblox.rw",
-      "count": 4
+      "count": 25
      },
      {
-      "domain": "cloud.iat.lat",
+      "domain": "metaabs-o8zj.vercel.app",
       "count": 3
      },
      {
-      "domain": "ms-cloud-785534289.iat.lat",
+      "domain": "metaac-idqz.vercel.app",
+      "count": 3
+     },
+     {
+      "domain": "metacas-75mn.vercel.app",
+      "count": 3
+     },
+     {
+      "domain": "metacas-i2a9.vercel.app",
+      "count": 3
+     },
+     {
+      "domain": "metafa-tbqi.vercel.app",
+      "count": 3
+     },
+     {
+      "domain": "metafca-3q8h.vercel.app",
+      "count": 3
+     },
+     {
+      "domain": "metaga-tpyb.vercel.app",
       "count": 3
      }
     ]
@@ -241,8 +241,64 @@
   },
   "nvd": {
    "label": "NVD 新披露 CVE",
-   "status": "error",
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "status": "ok",
+   "data": {
+    "published_7d": 4688,
+    "critical_7d": 101,
+    "high_7d": 1036,
+    "critical_list": [
+     {
+      "cve": "CVE-2026-115252",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-110468",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-110469",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-120017",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-124600",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-76964",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-89103",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-89126",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-107331",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-123800",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     }
+    ]
+   }
   }
  }
 }
