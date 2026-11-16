@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-15T09:39:25Z",
- "date": "2026-11-15",
+ "generatedAt": "2026-11-16T09:57:31Z",
+ "date": "2026-11-16",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -19,72 +19,72 @@
      {
       "rank": 1,
       "port": "23",
-      "records": 987532,
-      "targets": 282,
-      "sources": 7201
+      "records": 1072809,
+      "targets": 287,
+      "sources": 7848
      },
      {
       "rank": 2,
       "port": "22",
-      "records": 255693,
-      "targets": 280,
-      "sources": 7307
+      "records": 329999,
+      "targets": 291,
+      "sources": 8166
      },
      {
       "rank": 3,
       "port": "443",
-      "records": 120092,
-      "targets": 255,
-      "sources": 7469
+      "records": 128248,
+      "targets": 254,
+      "sources": 7414
      },
      {
       "rank": 4,
       "port": "16767",
-      "records": 92507,
-      "targets": 20,
-      "sources": 3607
+      "records": 103229,
+      "targets": 18,
+      "sources": 3747
      },
      {
       "rank": 5,
       "port": "80",
-      "records": 88709,
-      "targets": 278,
-      "sources": 4442
+      "records": 100928,
+      "targets": 288,
+      "sources": 6799
      },
      {
       "rank": 6,
-      "port": "51413",
-      "records": 74178,
-      "targets": 65,
-      "sources": 3401
+      "port": "2222",
+      "records": 70869,
+      "targets": 270,
+      "sources": 5681
      },
      {
       "rank": 7,
-      "port": "2222",
-      "records": 57471,
-      "targets": 266,
-      "sources": 4550
+      "port": "51413",
+      "records": 68668,
+      "targets": 159,
+      "sources": 3241
      },
      {
       "rank": 8,
-      "port": "123",
-      "records": 47811,
-      "targets": 262,
-      "sources": 2523
+      "port": "8080",
+      "records": 55979,
+      "targets": 282,
+      "sources": 3834
      },
      {
       "rank": 9,
-      "port": "8080",
-      "records": 46346,
-      "targets": 278,
-      "sources": 3112
+      "port": "123",
+      "records": 51685,
+      "targets": 241,
+      "sources": 2118
      },
      {
       "rank": 10,
-      "port": "137",
-      "records": 32144,
-      "targets": 204,
-      "sources": 399
+      "port": "7680",
+      "records": 48635,
+      "targets": 35,
+      "sources": 2662
      }
     ]
    }
@@ -94,7 +94,7 @@
    "status": "ok",
    "data": {
     "total": 1781,
-    "new_7d": 12,
+    "new_7d": 8,
     "released": "2026-11-13T20:24:18.3008Z",
     "recent": [
      {
@@ -160,22 +160,6 @@
       "added": "2026-11-10",
       "ransomware": false,
       "desc": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remo"
-     },
-     {
-      "cve": "CVE-2026-102895",
-      "vendor": "GPUStack",
-      "product": "GPUStack",
-      "added": "2026-11-09",
-      "ransomware": false,
-      "desc": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated adminis"
-     },
-     {
-      "cve": "CVE-2026-123158",
-      "vendor": "OpenBSD",
-      "product": "OpenSSH",
-      "added": "2026-11-09",
-      "ransomware": false,
-      "desc": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could"
      }
     ]
    }
@@ -205,36 +189,36 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "roblox.rw",
-      "count": 25
+      "domain": "roblox.com.ml",
+      "count": 10
      },
      {
-      "domain": "metaabs-o8zj.vercel.app",
-      "count": 3
+      "domain": "ew-uniswap.vercel.app",
+      "count": 7
      },
      {
-      "domain": "metaac-idqz.vercel.app",
-      "count": 3
+      "domain": "roblox.com.et",
+      "count": 6
      },
      {
-      "domain": "metacas-75mn.vercel.app",
-      "count": 3
+      "domain": "uspss.pages.dev",
+      "count": 6
      },
      {
-      "domain": "metacas-i2a9.vercel.app",
-      "count": 3
+      "domain": "www.roblox.com.et",
+      "count": 6
      },
      {
-      "domain": "metafa-tbqi.vercel.app",
-      "count": 3
+      "domain": "robiox.com.py",
+      "count": 5
      },
      {
-      "domain": "metafca-3q8h.vercel.app",
-      "count": 3
+      "domain": "robiox.com.gr",
+      "count": 4
      },
      {
-      "domain": "metaga-tpyb.vercel.app",
-      "count": 3
+      "domain": "uv-bitli-compo.pages.dev",
+      "count": 4
      }
     ]
    }
@@ -243,9 +227,9 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 4688,
-    "critical_7d": 101,
-    "high_7d": 1036,
+    "published_7d": 4547,
+    "critical_7d": 87,
+    "high_7d": 1127,
     "critical_list": [
      {
       "cve": "CVE-2026-115252",
@@ -288,12 +272,12 @@
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-107331",
+      "cve": "CVE-2026-123800",
       "score": 9.9,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-123800",
+      "cve": "CVE-2026-109795",
       "score": 9.9,
       "severity": "CRITICAL"
      }

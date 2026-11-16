@@ -218,5 +218,16 @@
   "published_7d": 4688,
   "critical_7d": 101,
   "ok_sources": 6
+ },
+ {
+  "date": "2026-11-16",
+  "infocon": "green",
+  "kev_total": 1781,
+  "kev_new_7d": 8,
+  "c2_ips": 5,
+  "phish_recent": 300,
+  "published_7d": 4547,
+  "critical_7d": 87,
+  "ok_sources": 6
  }
 ]
