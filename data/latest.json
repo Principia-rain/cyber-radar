@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-16T09:57:31Z",
- "date": "2026-11-16",
+ "generatedAt": "2026-11-17T10:54:04Z",
+ "date": "2026-11-17",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -19,72 +19,72 @@
      {
       "rank": 1,
       "port": "23",
-      "records": 1072809,
-      "targets": 287,
-      "sources": 7848
+      "records": 823896,
+      "targets": 293,
+      "sources": 7771
      },
      {
       "rank": 2,
       "port": "22",
-      "records": 329999,
-      "targets": 291,
-      "sources": 8166
+      "records": 472231,
+      "targets": 293,
+      "sources": 8629
      },
      {
       "rank": 3,
       "port": "443",
-      "records": 128248,
-      "targets": 254,
-      "sources": 7414
+      "records": 164270,
+      "targets": 268,
+      "sources": 9376
      },
      {
       "rank": 4,
       "port": "16767",
-      "records": 103229,
-      "targets": 18,
-      "sources": 3747
+      "records": 137371,
+      "targets": 21,
+      "sources": 4218
      },
      {
       "rank": 5,
       "port": "80",
-      "records": 100928,
-      "targets": 288,
-      "sources": 6799
+      "records": 96607,
+      "targets": 279,
+      "sources": 5420
      },
      {
       "rank": 6,
-      "port": "2222",
-      "records": 70869,
-      "targets": 270,
-      "sources": 5681
+      "port": "7680",
+      "records": 69765,
+      "targets": 61,
+      "sources": 3049
      },
      {
       "rank": 7,
-      "port": "51413",
-      "records": 68668,
-      "targets": 159,
-      "sources": 3241
+      "port": "123",
+      "records": 62877,
+      "targets": 250,
+      "sources": 2291
      },
      {
       "rank": 8,
-      "port": "8080",
-      "records": 55979,
-      "targets": 282,
-      "sources": 3834
+      "port": "51413",
+      "records": 62077,
+      "targets": 44,
+      "sources": 3043
      },
      {
       "rank": 9,
-      "port": "123",
-      "records": 51685,
-      "targets": 241,
-      "sources": 2118
+      "port": "2222",
+      "records": 50835,
+      "targets": 283,
+      "sources": 5502
      },
      {
       "rank": 10,
-      "port": "7680",
-      "records": 48635,
-      "targets": 35,
-      "sources": 2662
+      "port": "8080",
+      "records": 48458,
+      "targets": 280,
+      "sources": 3876
      }
     ]
    }
@@ -94,7 +94,7 @@
    "status": "ok",
    "data": {
     "total": 1781,
-    "new_7d": 8,
+    "new_7d": 2,
     "released": "2026-11-13T20:24:18.3008Z",
     "recent": [
      {
@@ -112,54 +112,6 @@
       "added": "2026-11-13",
       "ransomware": false,
       "desc": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway,"
-     },
-     {
-      "cve": "CVE-2026-124194",
-      "vendor": "Microsoft",
-      "product": "Office",
-      "added": "2026-11-10",
-      "ransomware": false,
-      "desc": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerabi"
-     },
-     {
-      "cve": "CVE-2026-111793",
-      "vendor": "Openwave Messaging Limited",
-      "product": "Webtop Media Transcoder",
-      "added": "2026-11-10",
-      "ransomware": false,
-      "desc": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between s"
-     },
-     {
-      "cve": "CVE-2026-20320",
-      "vendor": "Cisco",
-      "product": "BroadWorks",
-      "added": "2026-11-10",
-      "ransomware": false,
-      "desc": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability tha"
-     },
-     {
-      "cve": "CVE-2026-111560",
-      "vendor": "Barracuda Networks",
-      "product": "Multiple Products",
-      "added": "2026-11-10",
-      "ransomware": false,
-      "desc": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC"
-     },
-     {
-      "cve": "CVE-2026-116606",
-      "vendor": "Barracuda Networks",
-      "product": "Barracuda Email Security Gateway (ESG)",
-      "added": "2026-11-10",
-      "ransomware": false,
-      "desc": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate"
-     },
-     {
-      "cve": "CVE-2026-125350",
-      "vendor": "Google",
-      "product": "Chromium",
-      "added": "2026-11-10",
-      "ransomware": false,
-      "desc": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remo"
      }
     ]
    }
@@ -189,36 +141,36 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "roblox.com.ml",
-      "count": 10
+      "domain": "g5.lu",
+      "count": 9
      },
      {
-      "domain": "ew-uniswap.vercel.app",
-      "count": 7
-     },
-     {
-      "domain": "roblox.com.et",
-      "count": 6
-     },
-     {
-      "domain": "uspss.pages.dev",
-      "count": 6
-     },
-     {
-      "domain": "www.roblox.com.et",
-      "count": 6
-     },
-     {
-      "domain": "robiox.com.py",
-      "count": 5
-     },
-     {
-      "domain": "robiox.com.gr",
+      "domain": "roblox.com.bz",
       "count": 4
      },
      {
-      "domain": "uv-bitli-compo.pages.dev",
+      "domain": "trackdevice.live",
       "count": 4
+     },
+     {
+      "domain": "meta-olive-ten.vercel.app",
+      "count": 3
+     },
+     {
+      "domain": "roblox.com.gr",
+      "count": 3
+     },
+     {
+      "domain": "acessapp.vercel.app",
+      "count": 2
+     },
+     {
+      "domain": "is.gd",
+      "count": 2
+     },
+     {
+      "domain": "kucinonlogen.gitbook.io",
+      "count": 2
      }
     ]
    }
@@ -227,57 +179,57 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 4547,
-    "critical_7d": 87,
-    "high_7d": 1127,
+    "published_7d": 4411,
+    "critical_7d": 124,
+    "high_7d": 1192,
     "critical_list": [
      {
-      "cve": "CVE-2026-115252",
+      "cve": "CVE-2026-121351",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-110468",
+      "cve": "CVE-2026-121352",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-110469",
+      "cve": "CVE-2026-121353",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-120017",
+      "cve": "CVE-2026-121356",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-124600",
+      "cve": "CVE-2026-121889",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-76964",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-89103",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-89126",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-123800",
+      "cve": "CVE-2026-109467",
       "score": 9.9,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-109795",
+      "cve": "CVE-2026-120002",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-113579",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-113580",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-114371",
       "score": 9.9,
       "severity": "CRITICAL"
      }
