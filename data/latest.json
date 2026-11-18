@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-17T10:54:04Z",
- "date": "2026-11-17",
+ "generatedAt": "2026-11-18T10:25:02Z",
+ "date": "2026-11-18",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -18,73 +18,73 @@
     "top": [
      {
       "rank": 1,
-      "port": "23",
-      "records": 823896,
-      "targets": 293,
-      "sources": 7771
+      "port": "22",
+      "records": 329631,
+      "targets": 291,
+      "sources": 7587
      },
      {
       "rank": 2,
-      "port": "22",
-      "records": 472231,
-      "targets": 293,
-      "sources": 8629
+      "port": "443",
+      "records": 141478,
+      "targets": 258,
+      "sources": 8476
      },
      {
       "rank": 3,
-      "port": "443",
-      "records": 164270,
-      "targets": 268,
-      "sources": 9376
+      "port": "23",
+      "records": 122625,
+      "targets": 289,
+      "sources": 6506
      },
      {
       "rank": 4,
-      "port": "16767",
-      "records": 137371,
-      "targets": 21,
-      "sources": 4218
+      "port": "2222",
+      "records": 104115,
+      "targets": 272,
+      "sources": 4433
      },
      {
       "rank": 5,
       "port": "80",
-      "records": 96607,
-      "targets": 279,
-      "sources": 5420
+      "records": 101072,
+      "targets": 297,
+      "sources": 5591
      },
      {
       "rank": 6,
-      "port": "7680",
-      "records": 69765,
-      "targets": 61,
-      "sources": 3049
+      "port": "16767",
+      "records": 93123,
+      "targets": 20,
+      "sources": 3840
      },
      {
       "rank": 7,
-      "port": "123",
-      "records": 62877,
-      "targets": 250,
-      "sources": 2291
+      "port": "7680",
+      "records": 45390,
+      "targets": 37,
+      "sources": 2737
      },
      {
       "rank": 8,
       "port": "51413",
-      "records": 62077,
-      "targets": 44,
-      "sources": 3043
+      "records": 43131,
+      "targets": 43,
+      "sources": 2676
      },
      {
       "rank": 9,
-      "port": "2222",
-      "records": 50835,
-      "targets": 283,
-      "sources": 5502
+      "port": "123",
+      "records": 43130,
+      "targets": 266,
+      "sources": 2310
      },
      {
       "rank": 10,
-      "port": "8080",
-      "records": 48458,
-      "targets": 280,
-      "sources": 3876
+      "port": "137",
+      "records": 34714,
+      "targets": 195,
+      "sources": 406
      }
     ]
    }
@@ -93,10 +93,18 @@
    "label": "CISA KEV 在野利用漏洞",
    "status": "ok",
    "data": {
-    "total": 1781,
-    "new_7d": 2,
-    "released": "2026-11-13T20:24:18.3008Z",
+    "total": 1782,
+    "new_7d": 3,
+    "released": "2026-11-17T17:53:15.5664Z",
     "recent": [
+     {
+      "cve": "CVE-2026-115731",
+      "vendor": "Perforce",
+      "product": "Puppet Enterprise",
+      "added": "2026-11-17",
+      "ransomware": false,
+      "desc": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s re"
+     },
      {
       "cve": "CVE-2026-114713",
       "vendor": "UnrealIRCd",
@@ -141,36 +149,36 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "g5.lu",
-      "count": 9
+      "domain": "www.roblox.ly",
+      "count": 5
      },
      {
-      "domain": "roblox.com.bz",
+      "domain": "www.roblox.com.et",
       "count": 4
      },
      {
-      "domain": "trackdevice.live",
-      "count": 4
-     },
-     {
-      "domain": "meta-olive-ten.vercel.app",
-      "count": 3
-     },
-     {
-      "domain": "roblox.com.gr",
-      "count": 3
-     },
-     {
-      "domain": "acessapp.vercel.app",
+      "domain": "project-review-document-centre-vm48729607507cloud.pagefile.workers.dev",
       "count": 2
      },
      {
-      "domain": "is.gd",
+      "domain": "project.flat-cake-86df.workers.dev",
       "count": 2
      },
      {
-      "domain": "kucinonlogen.gitbook.io",
+      "domain": "roblox.ly",
       "count": 2
+     },
+     {
+      "domain": "us-start.framer.website",
+      "count": 2
+     },
+     {
+      "domain": "146a3.clatex.at",
+      "count": 1
+     },
+     {
+      "domain": "1lasverify-robux-reward-s.blogspot.com",
+      "count": 1
      }
     ]
    }
@@ -179,57 +187,57 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 4411,
-    "critical_7d": 124,
-    "high_7d": 1192,
+    "published_7d": 3574,
+    "critical_7d": 172,
+    "high_7d": 866,
     "critical_list": [
      {
-      "cve": "CVE-2026-121351",
+      "cve": "CVE-2026-78287",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-121352",
+      "cve": "CVE-2026-124815",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-121353",
+      "cve": "CVE-2026-117551",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-121356",
+      "cve": "CVE-2026-124822",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-121889",
+      "cve": "CVE-2026-93664",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-109467",
+      "cve": "CVE-2026-110697",
       "score": 9.9,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-120002",
+      "cve": "CVE-2026-12591",
       "score": 9.9,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-113579",
+      "cve": "CVE-2026-125851",
       "score": 9.9,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-113580",
+      "cve": "CVE-2026-19732",
       "score": 9.9,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-114371",
+      "cve": "CVE-2026-77033",
       "score": 9.9,
       "severity": "CRITICAL"
      }
