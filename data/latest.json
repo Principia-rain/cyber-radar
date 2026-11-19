@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-18T10:25:02Z",
- "date": "2026-11-18",
+ "generatedAt": "2026-11-19T10:32:43Z",
+ "date": "2026-11-19",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -19,72 +19,72 @@
      {
       "rank": 1,
       "port": "22",
-      "records": 329631,
-      "targets": 291,
-      "sources": 7587
+      "records": 303447,
+      "targets": 288,
+      "sources": 5793
      },
      {
       "rank": 2,
-      "port": "443",
-      "records": 141478,
-      "targets": 258,
-      "sources": 8476
+      "port": "23",
+      "records": 156504,
+      "targets": 290,
+      "sources": 6228
      },
      {
       "rank": 3,
-      "port": "23",
-      "records": 122625,
-      "targets": 289,
-      "sources": 6506
+      "port": "443",
+      "records": 123851,
+      "targets": 275,
+      "sources": 9480
      },
      {
       "rank": 4,
       "port": "2222",
-      "records": 104115,
-      "targets": 272,
-      "sources": 4433
+      "records": 116326,
+      "targets": 283,
+      "sources": 4346
      },
      {
       "rank": 5,
-      "port": "80",
-      "records": 101072,
-      "targets": 297,
-      "sources": 5591
+      "port": "16767",
+      "records": 90258,
+      "targets": 23,
+      "sources": 3550
      },
      {
       "rank": 6,
-      "port": "16767",
-      "records": 93123,
-      "targets": 20,
-      "sources": 3840
+      "port": "8080",
+      "records": 86421,
+      "targets": 281,
+      "sources": 3157
      },
      {
       "rank": 7,
-      "port": "7680",
-      "records": 45390,
-      "targets": 37,
-      "sources": 2737
+      "port": "80",
+      "records": 79708,
+      "targets": 275,
+      "sources": 5432
      },
      {
       "rank": 8,
-      "port": "51413",
-      "records": 43131,
-      "targets": 43,
-      "sources": 2676
+      "port": "7680",
+      "records": 47893,
+      "targets": 33,
+      "sources": 3343
      },
      {
       "rank": 9,
-      "port": "123",
-      "records": 43130,
-      "targets": 266,
-      "sources": 2310
+      "port": "8000",
+      "records": 43864,
+      "targets": 277,
+      "sources": 2676
      },
      {
       "rank": 10,
-      "port": "137",
-      "records": 34714,
-      "targets": 195,
-      "sources": 406
+      "port": "123",
+      "records": 39386,
+      "targets": 250,
+      "sources": 2215
      }
     ]
    }
@@ -93,10 +93,42 @@
    "label": "CISA KEV 在野利用漏洞",
    "status": "ok",
    "data": {
-    "total": 1782,
-    "new_7d": 3,
-    "released": "2026-11-17T17:53:15.5664Z",
+    "total": 1786,
+    "new_7d": 7,
+    "released": "2026-11-18T19:17:41.0354Z",
     "recent": [
+     {
+      "cve": "CVE-2024-10441",
+      "vendor": "Synology",
+      "product": "DiskStation Manager (DSM)",
+      "added": "2026-11-18",
+      "ransomware": false,
+      "desc": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin "
+     },
+     {
+      "cve": "CVE-2026-40217",
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "added": "2026-11-18",
+      "ransomware": false,
+      "desc": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote atta"
+     },
+     {
+      "cve": "CVE-2026-90817",
+      "vendor": "Vanderbilt University",
+      "product": "Research Electronic Data Capture (REDCap)",
+      "added": "2026-11-18",
+      "ransomware": false,
+      "desc": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerabil"
+     },
+     {
+      "cve": "CVE-2026-90436",
+      "vendor": "Apache",
+      "product": "Axis",
+      "added": "2026-11-18",
+      "ransomware": false,
+      "desc": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote a"
+     },
      {
       "cve": "CVE-2026-115731",
       "vendor": "Perforce",
@@ -149,36 +181,36 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "www.roblox.ly",
-      "count": 5
+      "domain": "dfv.pages.dev",
+      "count": 3
      },
      {
-      "domain": "www.roblox.com.et",
-      "count": 4
+      "domain": "rack-qs-e4aabd.9f37.com",
+      "count": 3
      },
      {
-      "domain": "project-review-document-centre-vm48729607507cloud.pagefile.workers.dev",
+      "domain": "adobe.subscribenet.com",
       "count": 2
      },
      {
-      "domain": "project.flat-cake-86df.workers.dev",
+      "domain": "afc-benton-fert253498.pages.dev",
       "count": 2
      },
      {
-      "domain": "roblox.ly",
+      "domain": "auth0-google.com",
       "count": 2
      },
      {
-      "domain": "us-start.framer.website",
+      "domain": "vmi3744912.contaboserver.net",
       "count": 2
      },
      {
-      "domain": "146a3.clatex.at",
-      "count": 1
+      "domain": "wvvw--roblox.com",
+      "count": 2
      },
      {
-      "domain": "1lasverify-robux-reward-s.blogspot.com",
-      "count": 1
+      "domain": "www.madethis.website",
+      "count": 2
      }
     ]
    }
@@ -187,20 +219,10 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 3574,
-    "critical_7d": 172,
-    "high_7d": 866,
+    "published_7d": 3624,
+    "critical_7d": 165,
+    "high_7d": 798,
     "critical_list": [
-     {
-      "cve": "CVE-2026-78287",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-124815",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
      {
       "cve": "CVE-2026-117551",
       "score": 10.0,
@@ -217,13 +239,18 @@
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-110697",
-      "score": 9.9,
+      "cve": "CVE-2026-53998",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-12591",
-      "score": 9.9,
+      "cve": "CVE-2026-120387",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-100397",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
@@ -238,6 +265,11 @@
      },
      {
       "cve": "CVE-2026-77033",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-28273",
       "score": 9.9,
       "severity": "CRITICAL"
      }
