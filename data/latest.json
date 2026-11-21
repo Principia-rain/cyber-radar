@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-20T10:13:54Z",
- "date": "2026-11-20",
+ "generatedAt": "2026-11-21T09:59:12Z",
+ "date": "2026-11-21",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -18,73 +18,73 @@
     "top": [
      {
       "rank": 1,
-      "port": "22",
-      "records": 312202,
-      "targets": 284,
-      "sources": 5985
+      "port": "23",
+      "records": 510972,
+      "targets": 287,
+      "sources": 7209
      },
      {
       "rank": 2,
-      "port": "23",
-      "records": 139275,
-      "targets": 287,
-      "sources": 5889
+      "port": "22",
+      "records": 299659,
+      "targets": 288,
+      "sources": 6653
      },
      {
       "rank": 3,
-      "port": "2222",
-      "records": 114064,
-      "targets": 274,
-      "sources": 2674
+      "port": "80",
+      "records": 109157,
+      "targets": 260,
+      "sources": 5808
      },
      {
       "rank": 4,
       "port": "443",
-      "records": 106133,
-      "targets": 280,
-      "sources": 7648
+      "records": 107779,
+      "targets": 272,
+      "sources": 7651
      },
      {
       "rank": 5,
-      "port": "80",
-      "records": 93829,
-      "targets": 273,
-      "sources": 5925
+      "port": "2222",
+      "records": 106235,
+      "targets": 272,
+      "sources": 2530
      },
      {
       "rank": 6,
       "port": "16767",
-      "records": 80715,
-      "targets": 15,
-      "sources": 3187
+      "records": 89514,
+      "targets": 12,
+      "sources": 3476
      },
      {
       "rank": 7,
-      "port": "123",
-      "records": 42809,
-      "targets": 238,
-      "sources": 2052
+      "port": "8080",
+      "records": 50056,
+      "targets": 278,
+      "sources": 4198
      },
      {
       "rank": 8,
-      "port": "7680",
-      "records": 34195,
-      "targets": 46,
-      "sources": 2271
+      "port": "123",
+      "records": 47083,
+      "targets": 256,
+      "sources": 2327
      },
      {
       "rank": 9,
-      "port": "8080",
-      "records": 31881,
-      "targets": 270,
-      "sources": 3402
+      "port": "8000",
+      "records": 34869,
+      "targets": 275,
+      "sources": 3100
      },
      {
       "rank": 10,
       "port": "137",
-      "records": 31770,
-      "targets": 203,
-      "sources": 738
+      "records": 33269,
+      "targets": 208,
+      "sources": 757
      }
     ]
    }
@@ -93,10 +93,42 @@
    "label": "CISA KEV 在野利用漏洞",
    "status": "ok",
    "data": {
-    "total": 1786,
-    "new_7d": 5,
-    "released": "2026-11-18T19:17:41.0354Z",
+    "total": 1790,
+    "new_7d": 9,
+    "released": "2026-11-20T17:48:39.1516Z",
     "recent": [
+     {
+      "cve": "CVE-2026-129448",
+      "vendor": "Apache",
+      "product": "Roller",
+      "added": "2026-11-20",
+      "ransomware": false,
+      "desc": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthentica"
+     },
+     {
+      "cve": "CVE-2026-123890",
+      "vendor": "Broadcom",
+      "product": "VMware vCenter",
+      "added": "2026-11-20",
+      "ransomware": false,
+      "desc": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnera"
+     },
+     {
+      "cve": "CVE-2025-42884",
+      "vendor": "SAP",
+      "product": "NetWeaver",
+      "added": "2026-11-20",
+      "ransomware": false,
+      "desc": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data quer"
+     },
+     {
+      "cve": "CVE-2026-76466",
+      "vendor": "Cisco",
+      "product": "Expressway Series",
+      "added": "2026-11-20",
+      "ransomware": false,
+      "desc": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauth"
+     },
      {
       "cve": "CVE-2024-10441",
       "vendor": "Synology",
@@ -165,36 +197,36 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "liehant324-conacy5930-bolienty94851.pages.dev",
-      "count": 5
-     },
-     {
-      "domain": "roblox.com.ee",
-      "count": 4
-     },
-     {
-      "domain": "customer-sp-logandaviau1.pages.dev",
+      "domain": "salhoub.lavecchialocanda.eu",
       "count": 3
      },
      {
-      "domain": "roblox.com.bz",
-      "count": 3
-     },
-     {
-      "domain": "robloxapps.com",
-      "count": 3
-     },
-     {
-      "domain": "support-es.com",
-      "count": 3
-     },
-     {
-      "domain": "zurl.kr",
-      "count": 3
-     },
-     {
-      "domain": "dmca.dnsperfect.net",
+      "domain": "m.citex-pro.com",
       "count": 2
+     },
+     {
+      "domain": "metamzkloge.gitbook.io",
+      "count": 2
+     },
+     {
+      "domain": "wquie-eiiow201113.pages.dev",
+      "count": 2
+     },
+     {
+      "domain": "www.roblox.com.et",
+      "count": 2
+     },
+     {
+      "domain": "www.salhoub.lavecchialocanda.eu",
+      "count": 2
+     },
+     {
+      "domain": "0385719264-jwq8m2-x4n7p9ht.pages.dev",
+      "count": 1
+     },
+     {
+      "domain": "1qf6n-6h8-yvw0-f8ijf-16-10-2026-aa.pages.dev",
+      "count": 1
      }
     ]
    }
@@ -203,9 +235,9 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 4658,
-    "critical_7d": 171,
-    "high_7d": 818,
+    "published_7d": 4381,
+    "critical_7d": 181,
+    "high_7d": 743,
     "critical_list": [
      {
       "cve": "CVE-2026-93664",
@@ -243,18 +275,18 @@
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-125851",
-      "score": 9.9,
+      "cve": "CVE-2026-91500",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-19732",
-      "score": 9.9,
+      "cve": "CVE-2026-91510",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-77033",
-      "score": 9.9,
+      "cve": "CVE-2026-91569",
+      "score": 10.0,
       "severity": "CRITICAL"
      }
     ]
