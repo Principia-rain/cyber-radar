@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-22T09:58:37Z",
- "date": "2026-11-22",
+ "generatedAt": "2026-11-23T10:58:06Z",
+ "date": "2026-11-23",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -18,73 +18,73 @@
     "top": [
      {
       "rank": 1,
-      "port": "22",
-      "records": 336924,
-      "targets": 279,
-      "sources": 5479
+      "port": "23",
+      "records": 655839,
+      "targets": 287,
+      "sources": 6138
      },
      {
       "rank": 2,
-      "port": "2222",
-      "records": 198323,
-      "targets": 266,
-      "sources": 4637
+      "port": "22",
+      "records": 317231,
+      "targets": 283,
+      "sources": 4823
      },
      {
       "rank": 3,
-      "port": "23",
-      "records": 116945,
-      "targets": 283,
-      "sources": 6572
+      "port": "2222",
+      "records": 191035,
+      "targets": 280,
+      "sources": 4476
      },
      {
       "rank": 4,
-      "port": "8080",
-      "records": 116456,
-      "targets": 281,
-      "sources": 4101
+      "port": "443",
+      "records": 132514,
+      "targets": 273,
+      "sources": 16656
      },
      {
       "rank": 5,
-      "port": "443",
-      "records": 101030,
-      "targets": 270,
-      "sources": 8213
+      "port": "8080",
+      "records": 126499,
+      "targets": 281,
+      "sources": 3558
      },
      {
       "rank": 6,
       "port": "8000",
-      "records": 99231,
-      "targets": 269,
-      "sources": 2864
+      "records": 107162,
+      "targets": 276,
+      "sources": 2209
      },
      {
       "rank": 7,
-      "port": "16767",
-      "records": 84530,
-      "targets": 14,
-      "sources": 3309
+      "port": "9000",
+      "records": 91648,
+      "targets": 261,
+      "sources": 1738
      },
      {
       "rank": 8,
-      "port": "9000",
-      "records": 83512,
-      "targets": 257,
-      "sources": 2126
+      "port": "7547",
+      "records": 70675,
+      "targets": 212,
+      "sources": 1000
      },
      {
       "rank": 9,
-      "port": "7547",
-      "records": 65599,
-      "targets": 210,
-      "sources": 1597
+      "port": "16767",
+      "records": 68178,
+      "targets": 12,
+      "sources": 2848
      },
      {
       "rank": 10,
       "port": "80",
-      "records": 64234,
-      "targets": 268,
-      "sources": 6548
+      "records": 61537,
+      "targets": 275,
+      "sources": 4664
      }
     ]
    }
@@ -197,35 +197,35 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "www.roblox.com.ml",
-      "count": 3
+      "domain": "walletconnect.wallet-veriffy.com",
+      "count": 8
+     },
+     {
+      "domain": "roblox.com.bo",
+      "count": 6
+     },
+     {
+      "domain": "www.roblox.com.et",
+      "count": 4
+     },
+     {
+      "domain": "www.roblox.com.ss",
+      "count": 4
      },
      {
       "domain": "about-blank-b9l.pages.dev",
-      "count": 2
+      "count": 3
      },
      {
-      "domain": "accounts-google.wallet-veriffy.com",
-      "count": 2
+      "domain": "oppdateraltinn.com",
+      "count": 3
      },
      {
-      "domain": "app-kleinanzeigen.de",
-      "count": 2
+      "domain": "www.roblox.ss",
+      "count": 3
      },
      {
-      "domain": "docs--trezr-css.gitbook.io",
-      "count": 2
-     },
-     {
-      "domain": "ledgrr-start-info.gitbook.io",
-      "count": 2
-     },
-     {
-      "domain": "metamskklogyn.gitbook.io",
-      "count": 2
-     },
-     {
-      "domain": "rbx.tg",
+      "domain": "bbva.e-docssign.net",
       "count": 2
      }
     ]
@@ -235,9 +235,9 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 4655,
-    "critical_7d": 172,
-    "high_7d": 765,
+    "published_7d": 4691,
+    "critical_7d": 193,
+    "high_7d": 748,
     "critical_list": [
      {
       "cve": "CVE-2026-93664",
