@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T12:43:09Z",
- "date": "2026-11-24",
+ "generatedAt": "2026-11-25T11:30:25Z",
+ "date": "2026-11-25",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -19,72 +19,72 @@
      {
       "rank": 1,
       "port": "22",
-      "records": 429927,
-      "targets": 300,
-      "sources": 7511
+      "records": 264846,
+      "targets": 295,
+      "sources": 6572
      },
      {
       "rank": 2,
       "port": "443",
-      "records": 368056,
-      "targets": 299,
-      "sources": 13672
+      "records": 154871,
+      "targets": 272,
+      "sources": 12249
      },
      {
       "rank": 3,
       "port": "2222",
-      "records": 243302,
-      "targets": 280,
-      "sources": 6251
+      "records": 112420,
+      "targets": 274,
+      "sources": 4036
      },
      {
       "rank": 4,
-      "port": "23",
-      "records": 196272,
-      "targets": 297,
-      "sources": 8263
+      "port": "8080",
+      "records": 111311,
+      "targets": 278,
+      "sources": 3814
      },
      {
       "rank": 5,
-      "port": "8080",
-      "records": 189791,
-      "targets": 279,
-      "sources": 4370
+      "port": "23",
+      "records": 106085,
+      "targets": 284,
+      "sources": 6140
      },
      {
       "rank": 6,
       "port": "8000",
-      "records": 188270,
-      "targets": 279,
-      "sources": 3713
+      "records": 97263,
+      "targets": 271,
+      "sources": 2927
      },
      {
       "rank": 7,
       "port": "9000",
-      "records": 144967,
-      "targets": 255,
-      "sources": 2771
+      "records": 81799,
+      "targets": 249,
+      "sources": 2033
      },
      {
       "rank": 8,
-      "port": "5555",
-      "records": 117055,
-      "targets": 269,
-      "sources": 2064
+      "port": "80",
+      "records": 72426,
+      "targets": 256,
+      "sources": 5270
      },
      {
       "rank": 9,
-      "port": "7547",
-      "records": 104231,
-      "targets": 237,
-      "sources": 2267
+      "port": "16767",
+      "records": 64079,
+      "targets": 36,
+      "sources": 3467
      },
      {
       "rank": 10,
-      "port": "80",
-      "records": 91715,
-      "targets": 260,
-      "sources": 6176
+      "port": "7547",
+      "records": 60669,
+      "targets": 218,
+      "sources": 1616
      }
     ]
    }
@@ -93,10 +93,34 @@
    "label": "CISA KEV 在野利用漏洞",
    "status": "ok",
    "data": {
-    "total": 1792,
-    "new_7d": 10,
-    "released": "2026-11-23T19:43:55.7979Z",
+    "total": 1795,
+    "new_7d": 9,
+    "released": "2026-11-24T17:47:46.199Z",
     "recent": [
+     {
+      "cve": "CVE-2026-132224",
+      "vendor": "Optimizely",
+      "product": "Web Experimentation",
+      "added": "2026-11-24",
+      "ransomware": false,
+      "desc": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in "
+     },
+     {
+      "cve": "CVE-2026-131914",
+      "vendor": "Idunno",
+      "product": "AntiCsrf",
+      "added": "2026-11-24",
+      "ransomware": false,
+      "desc": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenti"
+     },
+     {
+      "cve": "CVE-2026-132165",
+      "vendor": "Drupal",
+      "product": "Core",
+      "added": "2026-11-24",
+      "ransomware": false,
+      "desc": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attack"
+     },
      {
       "cve": "CVE-2026-133968",
       "vendor": "Project MONAI",
@@ -144,38 +168,6 @@
       "added": "2026-11-20",
       "ransomware": false,
       "desc": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauth"
-     },
-     {
-      "cve": "CVE-2024-10441",
-      "vendor": "Synology",
-      "product": "DiskStation Manager (DSM)",
-      "added": "2026-11-18",
-      "ransomware": true,
-      "desc": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin "
-     },
-     {
-      "cve": "CVE-2026-40217",
-      "vendor": "BerriAI",
-      "product": "LiteLLM",
-      "added": "2026-11-18",
-      "ransomware": false,
-      "desc": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote atta"
-     },
-     {
-      "cve": "CVE-2026-90817",
-      "vendor": "Vanderbilt University",
-      "product": "Research Electronic Data Capture (REDCap)",
-      "added": "2026-11-18",
-      "ransomware": false,
-      "desc": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerabil"
-     },
-     {
-      "cve": "CVE-2026-90436",
-      "vendor": "Apache",
-      "product": "Axis",
-      "added": "2026-11-18",
-      "ransomware": false,
-      "desc": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote a"
      }
     ]
    }
@@ -243,50 +235,10 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 4787,
-    "critical_7d": 218,
-    "high_7d": 788,
+    "published_7d": 4510,
+    "critical_7d": 171,
+    "high_7d": 670,
     "critical_list": [
-     {
-      "cve": "CVE-2026-100397",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-114784",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-114824",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-114835",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-91500",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-91510",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-91569",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-114202",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
      {
       "cve": "CVE-2026-95787",
       "score": 10.0,
@@ -295,6 +247,46 @@
      {
       "cve": "CVE-2026-130778",
       "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-71499",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-75521",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-133323",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-77312",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-132231",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-132232",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-132233",
+      "score": 9.9,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-132234",
+      "score": 9.9,
       "severity": "CRITICAL"
      }
     ]
