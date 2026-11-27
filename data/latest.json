@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T11:11:53Z",
- "date": "2026-11-26",
+ "generatedAt": "2026-11-27T11:03:31Z",
+ "date": "2026-11-27",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -19,72 +19,72 @@
      {
       "rank": 1,
       "port": "443",
-      "records": 264157,
-      "targets": 271,
-      "sources": 13130
+      "records": 339837,
+      "targets": 244,
+      "sources": 9844
      },
      {
       "rank": 2,
-      "port": "22",
-      "records": 259262,
-      "targets": 281,
-      "sources": 6576
+      "port": "80",
+      "records": 255610,
+      "targets": 236,
+      "sources": 3472
      },
      {
       "rank": 3,
-      "port": "8080",
-      "records": 137156,
-      "targets": 277,
-      "sources": 3817
+      "port": "22",
+      "records": 149866,
+      "targets": 263,
+      "sources": 4095
      },
      {
       "rank": 4,
-      "port": "23",
-      "records": 126135,
-      "targets": 278,
-      "sources": 5899
+      "port": "2222",
+      "records": 63777,
+      "targets": 244,
+      "sources": 1610
      },
      {
       "rank": 5,
-      "port": "8000",
-      "records": 113636,
-      "targets": 276,
-      "sources": 3099
+      "port": "8080",
+      "records": 56069,
+      "targets": 248,
+      "sources": 2678
      },
      {
       "rank": 6,
-      "port": "9000",
-      "records": 105497,
-      "targets": 251,
-      "sources": 2056
+      "port": "16767",
+      "records": 52460,
+      "targets": 13,
+      "sources": 2614
      },
      {
       "rank": 7,
-      "port": "2222",
-      "records": 97081,
-      "targets": 272,
-      "sources": 2756
+      "port": "23",
+      "records": 46419,
+      "targets": 267,
+      "sources": 3420
      },
      {
       "rank": 8,
-      "port": "80",
-      "records": 89485,
-      "targets": 258,
-      "sources": 5051
+      "port": "8000",
+      "records": 46386,
+      "targets": 253,
+      "sources": 2180
      },
      {
       "rank": 9,
-      "port": "7680",
-      "records": 85198,
-      "targets": 28,
-      "sources": 2116
+      "port": "9000",
+      "records": 42848,
+      "targets": 228,
+      "sources": 1352
      },
      {
       "rank": 10,
-      "port": "53140",
-      "records": 82058,
-      "targets": 4,
-      "sources": 2077
+      "port": "7680",
+      "records": 38241,
+      "targets": 15,
+      "sources": 1703
      }
     ]
    }
@@ -94,7 +94,7 @@
    "status": "ok",
    "data": {
     "total": 1805,
-    "new_7d": 19,
+    "new_7d": 15,
     "released": "2026-11-25T19:48:12.4344Z",
     "recent": [
      {
@@ -205,35 +205,35 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "cwohofa2h4.wpdns.site",
+      "domain": "web-bugfix.pages.dev",
+      "count": 5
+     },
+     {
+      "domain": "bubu-new.vercel.app",
       "count": 3
      },
      {
-      "domain": "www.roblox.com.ss",
+      "domain": "sso-auth.com",
       "count": 3
      },
      {
-      "domain": "continentalkey.us",
+      "domain": "www.roblox.ly",
+      "count": 3
+     },
+     {
+      "domain": "ads-z63a.vercel.app",
       "count": 2
      },
      {
-      "domain": "kjklm.online",
+      "domain": "is.gd",
       "count": 2
      },
      {
-      "domain": "kucoinloign.gitbook.io",
+      "domain": "recovery-account-enginer.vercel.app",
       "count": 2
      },
      {
-      "domain": "metamaskuxlogen.gitbook.io",
-      "count": 2
-     },
-     {
-      "domain": "roblox.com.sy",
-      "count": 2
-     },
-     {
-      "domain": "sharemyhtml.com",
+      "domain": "robinhxnoodlogin.gitbook.io",
       "count": 2
      }
     ]
@@ -243,58 +243,58 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 4322,
-    "critical_7d": 108,
-    "high_7d": 643,
+    "published_7d": 3432,
+    "critical_7d": 175,
+    "high_7d": 702,
     "critical_list": [
-     {
-      "cve": "CVE-2026-133323",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
-     {
-      "cve": "CVE-2026-77312",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
      {
       "cve": "CVE-2026-14914",
       "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-131253",
-      "score": 9.9,
+      "cve": "CVE-2026-134882",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-127057",
-      "score": 9.9,
+      "cve": "CVE-2026-62841",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-133648",
-      "score": 9.9,
+      "cve": "CVE-2026-130169",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-132891",
-      "score": 9.8,
+      "cve": "CVE-2026-128791",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-116439",
-      "score": 9.8,
+      "cve": "CVE-2026-9790",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-116440",
-      "score": 9.8,
+      "cve": "CVE-2026-128797",
+      "score": 10.0,
       "severity": "CRITICAL"
      },
      {
-      "cve": "CVE-2026-123890",
-      "score": 9.8,
+      "cve": "CVE-2026-128798",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-59415",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-129514",
+      "score": 10.0,
       "severity": "CRITICAL"
      }
     ]
