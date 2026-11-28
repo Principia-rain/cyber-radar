@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T11:03:31Z",
- "date": "2026-11-27",
+ "generatedAt": "2026-11-28T10:40:28Z",
+ "date": "2026-11-28",
  "ok_sources": 6,
  "sources": {
   "infocon": {
@@ -18,73 +18,73 @@
     "top": [
      {
       "rank": 1,
-      "port": "443",
-      "records": 339837,
-      "targets": 244,
-      "sources": 9844
+      "port": "22",
+      "records": 267404,
+      "targets": 278,
+      "sources": 6255
      },
      {
       "rank": 2,
-      "port": "80",
-      "records": 255610,
-      "targets": 236,
-      "sources": 3472
+      "port": "443",
+      "records": 211893,
+      "targets": 269,
+      "sources": 10327
      },
      {
       "rank": 3,
-      "port": "22",
-      "records": 149866,
-      "targets": 263,
-      "sources": 4095
+      "port": "2222",
+      "records": 183198,
+      "targets": 265,
+      "sources": 2624
      },
      {
       "rank": 4,
-      "port": "2222",
-      "records": 63777,
-      "targets": 244,
-      "sources": 1610
+      "port": "8080",
+      "records": 134631,
+      "targets": 276,
+      "sources": 2965
      },
      {
       "rank": 5,
-      "port": "8080",
-      "records": 56069,
-      "targets": 248,
-      "sources": 2678
+      "port": "23",
+      "records": 118955,
+      "targets": 280,
+      "sources": 5893
      },
      {
       "rank": 6,
-      "port": "16767",
-      "records": 52460,
-      "targets": 13,
-      "sources": 2614
+      "port": "8000",
+      "records": 106853,
+      "targets": 272,
+      "sources": 2000
      },
      {
       "rank": 7,
-      "port": "23",
-      "records": 46419,
-      "targets": 267,
-      "sources": 3420
+      "port": "80",
+      "records": 103021,
+      "targets": 252,
+      "sources": 4246
      },
      {
       "rank": 8,
-      "port": "8000",
-      "records": 46386,
+      "port": "9000",
+      "records": 93571,
       "targets": 253,
-      "sources": 2180
+      "sources": 1640
      },
      {
       "rank": 9,
-      "port": "9000",
-      "records": 42848,
-      "targets": 228,
-      "sources": 1352
+      "port": "16767",
+      "records": 82009,
+      "targets": 14,
+      "sources": 3538
      },
      {
       "rank": 10,
-      "port": "7680",
-      "records": 38241,
-      "targets": 15,
-      "sources": 1703
+      "port": "7547",
+      "records": 68999,
+      "targets": 205,
+      "sources": 1050
      }
     ]
    }
@@ -93,10 +93,34 @@
    "label": "CISA KEV 在野利用漏洞",
    "status": "ok",
    "data": {
-    "total": 1805,
-    "new_7d": 15,
-    "released": "2026-11-25T19:48:12.4344Z",
+    "total": 1808,
+    "new_7d": 18,
+    "released": "2026-11-27T18:03:12.5733Z",
     "recent": [
+     {
+      "cve": "CVE-2026-120705",
+      "vendor": "OSGeo",
+      "product": "GeoServer",
+      "added": "2026-11-27",
+      "ransomware": false,
+      "desc": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attack"
+     },
+     {
+      "cve": "CVE-2026-129243",
+      "vendor": "OSGeo",
+      "product": "GeoServer",
+      "added": "2026-11-27",
+      "ransomware": false,
+      "desc": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote at"
+     },
+     {
+      "cve": "CVE-2026-136716",
+      "vendor": "Drupal",
+      "product": "Core",
+      "added": "2026-11-27",
+      "ransomware": false,
+      "desc": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allo"
+     },
      {
       "cve": "CVE-2026-103406",
       "vendor": "Hewlett Packard Enterprise (HPE)",
@@ -152,30 +176,6 @@
       "added": "2026-11-25",
       "ransomware": false,
       "desc": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audi"
-     },
-     {
-      "cve": "CVE-2026-133311",
-      "vendor": "Mitel",
-      "product": "MiCollab",
-      "added": "2026-11-25",
-      "ransomware": false,
-      "desc": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing"
-     },
-     {
-      "cve": "CVE-2026-133303",
-      "vendor": "Mitel",
-      "product": "MiCollab",
-      "added": "2026-11-25",
-      "ransomware": false,
-      "desc": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AW"
-     },
-     {
-      "cve": "CVE-2026-133323",
-      "vendor": "Mitel",
-      "product": "MiCollab",
-      "added": "2026-11-25",
-      "ransomware": false,
-      "desc": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS com"
      }
     ]
    }
@@ -205,35 +205,35 @@
     "recent": 300,
     "top_domains": [
      {
-      "domain": "web-bugfix.pages.dev",
-      "count": 5
+      "domain": "mail.bel.wan.mybluehost.me",
+      "count": 4
      },
      {
-      "domain": "bubu-new.vercel.app",
+      "domain": "roblox.com.sy",
       "count": 3
      },
      {
-      "domain": "sso-auth.com",
-      "count": 3
-     },
-     {
-      "domain": "www.roblox.ly",
-      "count": 3
-     },
-     {
-      "domain": "ads-z63a.vercel.app",
+      "domain": "app.ocibank.bofa.us.oci.world",
       "count": 2
      },
      {
-      "domain": "is.gd",
+      "domain": "ebay.zco.mx",
       "count": 2
      },
      {
-      "domain": "recovery-account-enginer.vercel.app",
+      "domain": "fast-messages-241919.framer.app",
       "count": 2
      },
      {
-      "domain": "robinhxnoodlogin.gitbook.io",
+      "domain": "lagab.co.za",
+      "count": 2
+     },
+     {
+      "domain": "roblox.com.gr",
+      "count": 2
+     },
+     {
+      "domain": "sharefiles.email",
       "count": 2
      }
     ]
@@ -243,15 +243,10 @@
    "label": "NVD 新披露 CVE",
    "status": "ok",
    "data": {
-    "published_7d": 3432,
-    "critical_7d": 175,
-    "high_7d": 702,
+    "published_7d": 3250,
+    "critical_7d": 163,
+    "high_7d": 640,
     "critical_list": [
-     {
-      "cve": "CVE-2026-14914",
-      "score": 10.0,
-      "severity": "CRITICAL"
-     },
      {
       "cve": "CVE-2026-134882",
       "score": 10.0,
@@ -294,6 +289,11 @@
      },
      {
       "cve": "CVE-2026-129514",
+      "score": 10.0,
+      "severity": "CRITICAL"
+     },
+     {
+      "cve": "CVE-2026-109484",
       "score": 10.0,
       "severity": "CRITICAL"
      }
